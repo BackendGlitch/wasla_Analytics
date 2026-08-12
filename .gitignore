@@ -1,12 +1,3 @@
-# --- Regenerable data artifacts (re-extracted from the DBs, ~1.2G) ---
-Phase_1/data/raw/
-Phase_1/data/clean/
-Phase_1/data/features/
-Phase_1/logs/
-
-# --- Heavy per-run model outputs (parquet) ---
-Phase_3/output/*.parquet
-
 # --- Python ---
 .venv/
 venv/
