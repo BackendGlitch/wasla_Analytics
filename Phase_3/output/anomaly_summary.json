@@ -1,0 +1,66 @@
+{
+  "jemmal": {
+    "rolling_z": 2,
+    "wow_z": 1,
+    "isolation_forest": 2,
+    "consensus": 1,
+    "flag_days": [
+      {
+        "date": "2026-06-29",
+        "bookings": 2553,
+        "wow_z": true,
+        "rolling_z": true,
+        "iso": true,
+        "zero_day": false
+      }
+    ]
+  },
+  "monastir": {
+    "rolling_z": 0,
+    "wow_z": 7,
+    "isolation_forest": 7,
+    "consensus": 2,
+    "flag_days": [
+      {
+        "date": "2026-01-20",
+        "bookings": 0,
+        "wow_z": true,
+        "rolling_z": false,
+        "iso": false,
+        "zero_day": true
+      },
+      {
+        "date": "2026-05-27",
+        "bookings": 0,
+        "wow_z": true,
+        "rolling_z": false,
+        "iso": false,
+        "zero_day": true
+      }
+    ]
+  },
+  "total": {
+    "rolling_z": 0,
+    "wow_z": 6,
+    "isolation_forest": 7,
+    "consensus": 2,
+    "flag_days": [
+      {
+        "date": "2026-01-20",
+        "bookings": 0,
+        "wow_z": true,
+        "rolling_z": false,
+        "iso": false,
+        "zero_day": true
+      },
+      {
+        "date": "2026-05-27",
+        "bookings": 0,
+        "wow_z": true,
+        "rolling_z": false,
+        "iso": false,
+        "zero_day": true
+      }
+    ]
+  }
+}

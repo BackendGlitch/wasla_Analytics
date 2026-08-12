@@ -1,0 +1,98 @@
+{
+  "jemmal": {
+    "busiest_month": "2026-07",
+    "total_rt": 149969,
+    "Monastir": {
+      "bookings": 60918,
+      "revenue": 118898.95,
+      "avg_ticket": 1.9517868281952788,
+      "ghost_rate": 0.9932696411569651,
+      "real": 410,
+      "growth_2026-06_to_2026-07": 16.7860717264387
+    },
+    "Sousse": {
+      "bookings": 36681,
+      "revenue": 104446.6,
+      "avg_ticket": 2.847430549875958,
+      "ghost_rate": 0.5569368337831575,
+      "real": 16252,
+      "growth_2026-06_to_2026-07": 18.870413739266198
+    },
+    "Ksar Hlel": {
+      "bookings": 34533,
+      "revenue": 50084.45,
+      "avg_ticket": 1.4503359105782874,
+      "ghost_rate": 0.9995077172559581,
+      "real": 17,
+      "growth_2026-06_to_2026-07": 13.478549848942599
+    },
+    "Souassi": {
+      "bookings": 13421,
+      "revenue": 63806.75,
+      "avg_ticket": 4.754247075478728,
+      "ghost_rate": 0.5822964011623575,
+      "real": 5606,
+      "growth_2026-06_to_2026-07": 14.493288590604028
+    },
+    "Tunis": {
+      "bookings": 4349,
+      "revenue": 70881.5,
+      "avg_ticket": 16.29834444699931,
+      "ghost_rate": 0.016555530006898137,
+      "real": 4277,
+      "growth_2026-06_to_2026-07": 60.63265306122449
+    },
+    "Unknown": {
+      "bookings": 67,
+      "revenue": 249.64999999999998,
+      "avg_ticket": 3.7261194029850744,
+      "ghost_rate": 0.0,
+      "real": 67,
+      "growth_2026-06_to_2026-07": null
+    }
+  },
+  "monastir": {
+    "busiest_month": "2026-04",
+    "total_rt": 1038329,
+    "Jemmal": {
+      "bookings": 429293,
+      "revenue": 838100.75,
+      "avg_ticket": 1.9522814255065888,
+      "ghost_rate": 0.9991264707321107,
+      "real": 375,
+      "growth_2026-03_to_2026-04": 0.09383558568670587
+    },
+    "Ksar Hlel": {
+      "bookings": 372625,
+      "revenue": 709183.6,
+      "avg_ticket": 1.903209929553841,
+      "ghost_rate": 0.9999033881247903,
+      "real": 36,
+      "growth_2026-03_to_2026-04": 0.015584673416716299
+    },
+    "Moknin": {
+      "bookings": 155867,
+      "revenue": 343578.1,
+      "avg_ticket": 2.204303027581207,
+      "ghost_rate": 0.9999871685475438,
+      "real": 2,
+      "growth_2026-03_to_2026-04": 0.22402962375190108
+    },
+    "Teboulba": {
+      "bookings": 70559,
+      "revenue": 180266.69999999998,
+      "avg_ticket": 2.5548363780665824,
+      "ghost_rate": 0.9999574823906234,
+      "real": 3,
+      "growth_2026-03_to_2026-04": 0.22566974421068564
+    },
+    "Unknown": {
+      "bookings": 9985,
+      "revenue": 19558.2,
+      "avg_ticket": 1.9587581372058087,
+      "ghost_rate": 0.0,
+      "real": 9985,
+      "growth_2026-03_to_2026-04": -1.0
+    }
+  }
+}

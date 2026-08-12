@@ -1,0 +1,26 @@
+{
+  "jemmal": {
+    "passenger_paid_total": 408367.9000000001,
+    "station_fee_bookings": 22541.699999999993,
+    "station_fee_day_passes": 3276,
+    "real_bookings_rev": 143990.90000000002,
+    "ghost_bookings_rev": 264377.00000000006,
+    "avg_ticket_overall": 2.7230154231874595,
+    "avg_ticket_real": 5.407296556385896
+  },
+  "monastir": {
+    "passenger_paid_total": 2090687.3499999992,
+    "station_fee_bookings": 156023.10000000003,
+    "station_fee_day_passes": 58152,
+    "real_bookings_rev": 20567.1,
+    "ghost_bookings_rev": 2070120.25,
+    "avg_ticket_overall": 2.013511468908216,
+    "avg_ticket_real": 1.9774156331122006
+  },
+  "consolidated": {
+    "passenger_paid_total": 2499055.2500000005,
+    "station_fee_total": 178564.80000000005,
+    "real_rev_total": 164558.0,
+    "ghost_rev_total": 2334497.25
+  }
+}
