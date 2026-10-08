@@ -34,10 +34,10 @@
     \textbf{Student}            & Yasmine Ghomrassi \\
     \textbf{Degree program}     & Master's Degree in Statistics and Data Science \\
     \textbf{University}         & University of Palermo (Italy) \\[0.4cm]
-    \textbf{Host company}       & Backend Glitch Inc. --- backendglitch.com \\
+    \textbf{Host company}       & Backend Glitch Inc. (backendglitch.com) \\
     \textbf{Company supervisor} & Mr.\ Samer Gassouma (CEO) \\[0.4cm]
     \textbf{Location}           & Monastir, Tunisia \\
-    \textbf{Period}             & 1 July 2026 -- 25 September 2026 \\
+    \textbf{Period}             & 1 July 2026 to 25 September 2026 \\
   \end{tabular}
 
   \vfill
@@ -49,13 +49,23 @@
 % ------------------------------------------------------------------
 \section{Host institution}
 
-Backend Glitch Inc.\ (\url{https://backendglitch.com}) is a software company in
-Monastir, Tunisia, that builds and runs \textbf{Wasla}, a transport-management
-platform for intercity shared taxis. Wasla is in production at the Monastir Centre
-and Jammel-Monastir stations, with a third station (Ksar Hlel) planned. On a normal
-day the platform handles everything that happens at a station: passenger bookings,
-vehicle dispatching, day passes, route scheduling, ticket printing and staff shift
-tracking. The fleet counts 113 vehicles of eight seats each, serving five
+Backend Glitch Inc.\ is a software company based in Monastir, Tunisia. The company
+builds software solutions for companies and for the clients who come to it: it works
+mainly on fintech and crypto solutions and on backend solutions, and it also develops
+its own products, some of which are still on the way. One of these projects is
+\emph{Wasla}, a transport management platform that the company built as a solution
+for its client \textbf{Dhraief Service de Transport} (\url{https://www.dhraief.live/}),
+the operator of the Monastir Centre and Jammel Monastir stations.
+
+\begin{center}
+  \includegraphics[width=0.22\textwidth]{dhraief_logo.png}\\[2pt]
+  {\small Dhraief Service de Transport, the client behind the Wasla platform}
+\end{center}
+
+Wasla is in production at both stations, with a third station (Ksar Hlel) planned.
+On a normal day the platform handles everything that happens at a station: passenger
+bookings, vehicle dispatching, day passes, route scheduling, ticket printing and
+staff shift tracking. The fleet counts 113 vehicles of eight seats each, serving five
 destinations. The system has been collecting data since April 2026, and by the time I
 joined there was more than a year's worth of bookings, trips and sales sitting in the
 databases with nobody looking at it analytically. That was the whole point of my
@@ -86,7 +96,7 @@ The training plan agreed with the university listed six objectives:
 The work naturally fell into five phases, and this is roughly how my three months
 went.
 
-\subsection*{Phase 1 --- getting the data out}
+\subsection*{Phase 1: getting the data out}
 
 The first thing I learned is that real production data does not wait for you in a CSV
 file. The two stations each run their own PostgreSQL database on their own server,
@@ -111,32 +121,93 @@ about fourteen times smaller. I decided from the start that every chart, table a
 KPI would say explicitly which revenue it is showing, because mixing the two makes
 the numbers look wrong even when they are both right.
 
-\subsection*{Phase 2 --- statistics}
+\subsection*{A closer look: how the data went from database to chart}
+
+Since the pipeline is the part of my work I was asked about the most, here it is step
+by step, with the actual commands I used every morning.
+
+\textbf{Step 1. Open the tunnels.} Each station server is reached through a local
+port forward, so the databases stay private while my scripts see them as local
+Postgres instances.
+
+\begin{verbatim}
+ssh -fN -L 15432:localhost:5432 server@100.72.205.59
+ssh -fN -L 15433:localhost:5432 ste@100.123.86.114
+\end{verbatim}
+
+\textbf{Step 2. Extract.} One script per station pulls every table and stores it as
+parquet, batching large tables by id so a million-row bookings table never fills the
+memory.
+
+\begin{verbatim}
+cd Phase_1/scripts
+python3 01_extract.py jemmal
+python3 01_extract.py monastir
+\end{verbatim}
+
+\textbf{Step 3. Clean and enrich.} A cleaning script unifies the two schemas, then a
+features script adds the time variables (hour, weekday, month) and the real versus
+ghost flag that every downstream analysis relies on.
+
+\begin{verbatim}
+cd .. && python3 02_clean.py && python3 03_features.py
+\end{verbatim}
+
+\textbf{Step 4. Plot and analyse.} The Phase 2 scripts group the enriched bookings
+by hour, by day, by route and by vehicle and write both the numbers and the charts.
+For example, the hourly flow chart below is exactly what came out of this step for
+the whole history, and it is where the two peaks became visible.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{../Phase_2/charts/flow_hourly.png}
+  \caption{Passenger flow by hour of day, both stations. Jemmal peaks at 07h and
+  Monastir at 12h.}
+\end{figure}
+
+\textbf{Step 5. Forecast and detect anomalies.} Phase 3 turns the daily series into
+training data, runs the walk-forward cross-validation, refits the winning model on
+the full series and produces the seven-day forecast with its confidence bands, then
+scores every day with the three anomaly detectors.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{../Phase_3/charts/forecast_total.png}
+  \caption{Consolidated forecast: the SARIMA model with its walk-forward validation
+  and the seven-day horizon ahead of the last training day.}
+\end{figure}
+
+\textbf{Step 6. Serve.} The dashboard reads these same artifacts, so whatever the
+screen shows can always be traced back to a file, and the API exposes the same
+numbers over HTTP with a live feed on top.
+
+\subsection*{Phase 2: statistics}
 
 With the data in shape I analysed passenger flow, revenue, routes and fleet use. The
 clearest results: Jemmal peaks at 07h and Monastir at 12h (both around three times
 their off-peak level), and Jemmal's fleet runs at a 90.9\% average load factor over
 80 trips per vehicle. On the revenue side, the consolidated picture is
 3,427,079 TND passenger-paid against 237,729 TND of station fees. The route table
-showed something the operators already suspected: the Jemmal--Tunis line is the
+showed something the operators already suspected: the Jemmal to Tunis line is the
 premium route, with an average ticket of 15.85 TND and almost no ghost bookings,
 while most other routes are dominated by drafts.
 
-\subsection*{Phase 3 --- forecasting and anomaly detection}
+\subsection*{Phase 3: forecasting and anomaly detection}
 
 I built daily demand series per station and for the network, then tested six
 forecasting models: naive, seasonal naive, seasonal median, weekly mean, SARIMA and
-Prophet. Instead of a single train/test split I used walk-forward cross-validation,
-which feels like the only honest way to evaluate models on a time series: the model
-always predicts the week after everything it has seen. Prophet lost on every series;
-the winners were the simplest ones. Seasonal naive won for Monastir (MAPE 8.5\%),
-naive won for Jemmal (6.3\%), and SARIMA won for the consolidated total (6.0\%). For
-anomalies I combined three detectors --- a rolling z-score, a week-over-week
-difference z-score, and an Isolation Forest --- and flagged a day when at least two
-of them agree. This combination caught things a single detector missed, like the two
-zero-booking days at Monastir that a plain z-score would never see.
+Prophet. Instead of a single train/test split I used walk-forward
+cross-validation, which feels like the only honest way to evaluate models on a time
+series: the model always predicts the week after everything it has seen. Prophet
+lost on every series; the winners were the simplest ones. Seasonal naive won for
+Monastir (MAPE 8.5\%), naive won for Jemmal (6.3\%), and SARIMA won for the
+consolidated total (6.0\%). For anomaly detection I combined three detectors, a
+rolling z-score, a week over week difference z-score, and an Isolation Forest, and
+flagged a day when at least two of them agree. This combination caught things a
+single detector missed, like the two zero-booking days at Monastir that a plain
+z-score would never see.
 
-\subsection*{Phases 4 and 5 --- the dashboard, the API and the deployment}
+\subsection*{Phases 4 and 5: the dashboard, the API and the deployment}
 
 The last stretch of the internship was software work. I built a seven-view analytics
 dashboard (overview, passenger flow, revenue, routes, fleet, forecast, anomalies)
@@ -166,13 +237,6 @@ taught me something about verifying before trusting.
   \includegraphics[width=0.85\textwidth]{../analytics_dashboard/docs/screenshots/6-forecast.png}
   \caption{Forecast view: seven-day forecasts with confidence bands and the
   cross-validation MAPE for each model.}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.85\textwidth]{../analytics_dashboard/docs/screenshots/3-revenue.png}
-  \caption{Revenue view. Passenger-paid and station-fee are shown side by side, each
-  labelled, so the two definitions never get confused.}
 \end{figure}
 
 \section{Technologies and methods used}
@@ -208,12 +272,12 @@ morning peak, which leaves almost no slack in the fleet.
 My degree in Statistics and Data Science at the University of Palermo prepared me for
 a large part of this work, and the internship returned the favour by making all of it
 concrete. The cross-validated model selection I used for the forecasts comes straight
-from the time-series courses --- but applying it to data where one station only has
+from the time-series courses, but applying it to data where one station only has
 four months of history, and where a single partial day can send the MAPE to 3000\%,
 is a different experience from the textbook datasets. The anomaly detection work
 (multiple detectors, consensus voting, handling zero-inflated series) is applied
-statistical learning in the truest sense. And the deployment part --- containers, a
-REST API, a WebSocket feed, a public deployment --- matches the cloud-computing
+statistical learning in the truest sense. And the deployment part, containers, a
+REST API, a WebSocket feed, a public deployment, matches the cloud-computing
 component of the programme. What the courses could not teach, the company did:
 working with read-only production access, respecting a live system, and verifying
 every result against its source before presenting it.
@@ -226,7 +290,7 @@ how every stage depends on the one before it. I learned to deal with messy,
 inconsistent, real-world data; I built forecasting and anomaly-detection systems that
 survived cross-validation rather than just fitting; and I shipped software that
 people at the stations can actually open. The two findings that matter most for the
-company --- the ghost-booking reality and the dual revenue definitions --- are now
+company, the ghost-booking reality and the dual revenue definitions, are now
 measured, labelled and monitored instead of hidden in the database. I finished the
 internship with a much clearer idea of what it means to do data science on a live
 system, and I am grateful to Mr.\ Gassouma and the whole team for the opportunity.

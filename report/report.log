@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  8 OCT 2026 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  9 OCT 2026 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,49 +335,58 @@ Package pdftex.def Info: qr_platform.png  used on input line 45.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bacekdendglitch_logo.png
 > <./qr_repo.png (PNG copy)> <./qr_platform.png (PNG copy)>]
+<dhraief_logo.png, id=50, 501.875pt x 501.875pt>
+File: dhraief_logo.png Graphic file (type png)
+<use dhraief_logo.png>
+Package pdftex.def Info: dhraief_logo.png  used on input line 61.
+(pdftex.def)             Requested size: 103.91008pt x 103.91121pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.113 
-       [1]
-<../analytics_dashboard/docs/screenshots/1-overview.png, id=63, 1927.2pt x 964.
+       [1 <./dhraief_logo.png>]
+<../Phase_2/charts/flow_hourly.png, id=63, 794.97pt x 361.35pt>
+File: ../Phase_2/charts/flow_hourly.png Graphic file (type png)
+<use ../Phase_2/charts/flow_hourly.png>
+Package pdftex.def Info: ../Phase_2/charts/flow_hourly.png  used on input line 
+163.
+(pdftex.def)             Requested size: 377.85419pt x 171.75331pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Phase_3/charts/forecast_total.png, id=64, 867.24pt x 361.35pt>
+File: ../Phase_3/charts/forecast_total.png Graphic file (type png)
+<use ../Phase_3/charts/forecast_total.png>
+Package pdftex.def Info: ../Phase_3/charts/forecast_total.png  used on input li
+ne 175.
+(pdftex.def)             Requested size: 377.85419pt x 157.4396pt.
+[2] [3 <../Phase_2/charts/flow_hourly.png> <../Phase_3/charts/forecast_total.pn
+g>]
+<../analytics_dashboard/docs/screenshots/1-overview.png, id=82, 1927.2pt x 964.
 60374pt>
 File: ../analytics_dashboard/docs/screenshots/1-overview.png Graphic file (type
  png)
 <use ../analytics_dashboard/docs/screenshots/1-overview.png>
 Package pdftex.def Info: ../analytics_dashboard/docs/screenshots/1-overview.png
-  used on input line 159.
+  used on input line 230.
 (pdftex.def)             Requested size: 401.47144pt x 200.939pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../analytics_dashboard/docs/screenshots/6-forecast.png, id=64, 1927.2pt x 964.
+<../analytics_dashboard/docs/screenshots/6-forecast.png, id=83, 1927.2pt x 964.
 60374pt>
 File: ../analytics_dashboard/docs/screenshots/6-forecast.png Graphic file (type
  png)
 <use ../analytics_dashboard/docs/screenshots/6-forecast.png>
 Package pdftex.def Info: ../analytics_dashboard/docs/screenshots/6-forecast.png
-  used on input line 166.
+  used on input line 237.
 (pdftex.def)             Requested size: 401.47144pt x 200.939pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../analytics_dashboard/docs/screenshots/3-revenue.png, id=65, 1927.2pt x 964.6
-0374pt>
-File: ../analytics_dashboard/docs/screenshots/3-revenue.png Graphic file (type 
-png)
-<use ../analytics_dashboard/docs/screenshots/3-revenue.png>
-Package pdftex.def Info: ../analytics_dashboard/docs/screenshots/3-revenue.png 
- used on input line 173.
-(pdftex.def)             Requested size: 401.47144pt x 200.939pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3 <../analytics_dashboard/docs/screenshots/1-overview.png> <../analytics_d
-ashboard/docs/screenshots/6-forecast.png>] [4 <../analytics_dashboard/docs/scre
-enshots/3-revenue.png>] [5] (./report.aux)
+[4 <../analytics_dashboard/docs/screenshots/1-overview.png>] [5 <../analytics_d
+ashboard/docs/screenshots/6-forecast.png>] [6] (./report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -386,10 +395,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 7D66F7361CCE2A2DBCDF7FD2AD002561;1339.
  ) 
 Here is how much of TeX's memory you used:
- 9236 strings out of 469339
- 144469 string characters out of 5466703
- 575517 words of memory out of 6000000
- 37960 multiletter control sequences out of 15000+600000
+ 9257 strings out of 469339
+ 144929 string characters out of 5466703
+ 573517 words of memory out of 6000000
+ 37978 multiletter control sequences out of 15000+600000
  633098 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,79p,287b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -398,10 +407,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (6 pages, 511007 bytes).
+Output written on report.pdf (7 pages, 666275 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
