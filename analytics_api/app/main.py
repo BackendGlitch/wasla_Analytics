@@ -36,7 +36,11 @@ app = FastAPI(title="Wasla Analytics API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:3001"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "https://wasla-analytics-samers-projects-e0e34ea8.vercel.app",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )

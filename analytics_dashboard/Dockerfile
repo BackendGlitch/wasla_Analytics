@@ -6,6 +6,7 @@ RUN pnpm install --frozen-lockfile
 
 FROM node:24-alpine AS build
 WORKDIR /app
+RUN corepack enable
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 ARG NEXT_PUBLIC_API_BASE=http://localhost:8000

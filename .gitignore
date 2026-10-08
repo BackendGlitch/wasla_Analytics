@@ -18,3 +18,7 @@ Phase_1/data/raw/monastir_print_jobs.parquet
 Phase_1/data/clean/print_jobs.parquet
 Phase_1/data/clean/bookings.parquet
 Phase_1/data/features/bookings_enriched.parquet
+.vercel
+
+# vercel local link state
+.vercel/
