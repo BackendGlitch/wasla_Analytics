@@ -1,0 +1,26 @@
+services:
+  api:
+    build: ./analytics_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/repo:ro            # Phase_1..Phase_3 artifacts, read-only
+    environment:
+      ARTIFACTS_DIR: /repo
+      TICK_SECONDS: ${TICK_SECONDS:-60}
+      JEM_DB_URL: ${JEM_DB_URL:-}
+      MON_DB_URL: ${MON_DB_URL:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: ./analytics_dashboard
+      args:
+        NEXT_PUBLIC_API_BASE: http://localhost:8000
+        NEXT_PUBLIC_USE_MOCK: "0"
+    ports:
+      - "3001:3000"
+    depends_on:
+      - api
