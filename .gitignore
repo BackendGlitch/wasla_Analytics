@@ -11,3 +11,10 @@ __pycache__/
 .DS_Store
 # playwright MCP session artifacts
 .playwright-mcp/
+
+# large/regenerable data files stay out of git (see Phase_1/NOTES.md)
+Phase_1/data/raw/*.csv
+Phase_1/data/raw/monastir_print_jobs.parquet
+Phase_1/data/clean/print_jobs.parquet
+Phase_1/data/clean/bookings.parquet
+Phase_1/data/features/bookings_enriched.parquet

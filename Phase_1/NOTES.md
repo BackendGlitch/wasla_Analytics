@@ -60,3 +60,13 @@ Check: `pg_isready -h localhost -p 15432` / `pg_isready -h localhost -p 15433`.
 - Forecast hourly/daily demand per route from `demand_hourly` / `demand_daily` (seasonality by hour + weekday).
 - Use `route_performance` to size vehicles per destination; `print_jobs` can show ticket-print throughput.
 - Evaluate whether to drop ghost bookings for training, or model them separately (draft vs sold).
+
+## 8. Files excluded from git (GitHub 100 MB limit)
+
+Raw CSVs are committed as `.csv.gz` (compressed 5–10x). The following large,
+regenerable artifacts stay out of git and are excluded via `.gitignore`:
+
+- `data/raw/*.csv` — regenerate: `python3 scripts/01_extract.py <station>` then `gzip -9`
+- `data/raw/monastir_print_jobs.parquet` — same (135 MB)
+- `data/clean/print_jobs.parquet` (153 MB), `data/clean/bookings.parquet` (118 MB) — regenerate: `python3 02_clean.py`
+- `data/features/bookings_enriched.parquet` (124 MB) — regenerate: `python3 03_features.py`
