@@ -1,0 +1,9 @@
+"""Live feed (stub — full implementation in the next task)."""
+def tunnel_status() -> dict:
+    return {"jemmal": False, "monastir": False}
+
+
+class LiveFeed:
+    def start(self) -> None: ...
+    def stop(self) -> None: ...
+    async def connect(self, websocket) -> None: ...
