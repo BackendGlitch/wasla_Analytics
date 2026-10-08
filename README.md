@@ -51,7 +51,21 @@ More views in [`analytics_dashboard/docs/screenshots/`](analytics_dashboard/docs
 
 ## Architecture
 
-![Architecture](analytics_dashboard/docs/architecture.png)
+<p align="center">
+  <img src="analytics_dashboard/docs/architecture.png" alt="Architecture" width="640" />
+</p>
+
+```
+Jemmal DB ──┐                                            ┌── Monastir DB
+            └─> SSH tunnels (read-only) ─> Phase 1 Data ─> Phase 2 Stats ─> Phase 3 ML
+                                                                                │
+                        live 60 s count/sum queries <──────┐                    │
+                                                            │                    ▼
+                       FastAPI (REST + WS) <────────────────┴───── Analytics artifacts
+                            │  REST + WS live tick
+                            ▼
+                      Next.js dashboard (7 views)
+```
 
 ## Run it locally, step by step
 
