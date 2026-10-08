@@ -1,16 +1,16 @@
 {
   "jemmal": {
-    "total": 149969,
-    "cancelled": 70,
-    "cancel_rate": 0.00046676313104708305,
+    "total": 355579,
+    "cancelled": 456,
+    "cancel_rate": 0.0012824154407318768,
     "reasons": {
-      "cancel_last_operator_no_trip": 5
+      "cancel_last_operator_no_trip": 8
     }
   },
   "monastir": {
-    "total": 1038329,
+    "total": 1227150,
     "cancelled": 45,
-    "cancel_rate": 4.3338864656578024e-05,
+    "cancel_rate": 3.667033370003667e-05,
     "reasons": {
       "test cancel": 2
     }

@@ -1,5 +1,5 @@
 {
-  "data_through": "2026-08-11",
+  "data_through": "2026-10-08",
   "series": [
     {
       "station": "jemmal",
@@ -540,6 +540,586 @@
       "revenue_station_fee": 544.8,
       "real_bookings": 907,
       "ghost_bookings": 2725
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-12",
+      "bookings": 3906,
+      "seats": 3906,
+      "revenue_passenger_paid": 10598.4,
+      "revenue_station_fee": 585.9,
+      "real_bookings": 910,
+      "ghost_bookings": 2996
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-13",
+      "bookings": 3151,
+      "seats": 3151,
+      "revenue_passenger_paid": 8838.3,
+      "revenue_station_fee": 472.65,
+      "real_bookings": 1271,
+      "ghost_bookings": 1880
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-14",
+      "bookings": 3995,
+      "seats": 3995,
+      "revenue_passenger_paid": 11028.7,
+      "revenue_station_fee": 599.25,
+      "real_bookings": 958,
+      "ghost_bookings": 3037
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-15",
+      "bookings": 3602,
+      "seats": 3602,
+      "revenue_passenger_paid": 9888.3,
+      "revenue_station_fee": 540.3,
+      "real_bookings": 1396,
+      "ghost_bookings": 2206
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-16",
+      "bookings": 3508,
+      "seats": 3508,
+      "revenue_passenger_paid": 9804.6,
+      "revenue_station_fee": 526.2,
+      "real_bookings": 1056,
+      "ghost_bookings": 2452
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-17",
+      "bookings": 4310,
+      "seats": 4310,
+      "revenue_passenger_paid": 11824.75,
+      "revenue_station_fee": 646.5,
+      "real_bookings": 1276,
+      "ghost_bookings": 3034
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-18",
+      "bookings": 3688,
+      "seats": 3688,
+      "revenue_passenger_paid": 10430.5,
+      "revenue_station_fee": 553.2,
+      "real_bookings": 907,
+      "ghost_bookings": 2781
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-19",
+      "bookings": 3754,
+      "seats": 3754,
+      "revenue_passenger_paid": 9969.3,
+      "revenue_station_fee": 563.1,
+      "real_bookings": 853,
+      "ghost_bookings": 2901
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-20",
+      "bookings": 3935,
+      "seats": 3935,
+      "revenue_passenger_paid": 10528.8,
+      "revenue_station_fee": 590.25,
+      "real_bookings": 1203,
+      "ghost_bookings": 2732
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-21",
+      "bookings": 3500,
+      "seats": 3500,
+      "revenue_passenger_paid": 9208.6,
+      "revenue_station_fee": 525.0,
+      "real_bookings": 1142,
+      "ghost_bookings": 2358
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-22",
+      "bookings": 3468,
+      "seats": 3468,
+      "revenue_passenger_paid": 10007.4,
+      "revenue_station_fee": 520.2,
+      "real_bookings": 1383,
+      "ghost_bookings": 2085
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-23",
+      "bookings": 3096,
+      "seats": 3096,
+      "revenue_passenger_paid": 8771.9,
+      "revenue_station_fee": 464.4,
+      "real_bookings": 1196,
+      "ghost_bookings": 1900
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-24",
+      "bookings": 3999,
+      "seats": 3999,
+      "revenue_passenger_paid": 10478.7,
+      "revenue_station_fee": 599.85,
+      "real_bookings": 1382,
+      "ghost_bookings": 2617
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-25",
+      "bookings": 2397,
+      "seats": 2397,
+      "revenue_passenger_paid": 6496.45,
+      "revenue_station_fee": 359.55,
+      "real_bookings": 898,
+      "ghost_bookings": 1499
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-26",
+      "bookings": 3186,
+      "seats": 3186,
+      "revenue_passenger_paid": 8343.1,
+      "revenue_station_fee": 477.9,
+      "real_bookings": 1146,
+      "ghost_bookings": 2040
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-27",
+      "bookings": 3253,
+      "seats": 3253,
+      "revenue_passenger_paid": 8210.15,
+      "revenue_station_fee": 487.95,
+      "real_bookings": 1047,
+      "ghost_bookings": 2206
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-28",
+      "bookings": 3077,
+      "seats": 3077,
+      "revenue_passenger_paid": 8264.45,
+      "revenue_station_fee": 461.55,
+      "real_bookings": 1069,
+      "ghost_bookings": 2008
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-29",
+      "bookings": 3168,
+      "seats": 3168,
+      "revenue_passenger_paid": 8515.7,
+      "revenue_station_fee": 475.2,
+      "real_bookings": 1153,
+      "ghost_bookings": 2015
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-30",
+      "bookings": 3036,
+      "seats": 3036,
+      "revenue_passenger_paid": 8643.3,
+      "revenue_station_fee": 455.4,
+      "real_bookings": 1105,
+      "ghost_bookings": 1931
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-08-31",
+      "bookings": 3813,
+      "seats": 3813,
+      "revenue_passenger_paid": 9679.25,
+      "revenue_station_fee": 571.95,
+      "real_bookings": 836,
+      "ghost_bookings": 2977
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-01",
+      "bookings": 3499,
+      "seats": 3499,
+      "revenue_passenger_paid": 9296.8,
+      "revenue_station_fee": 524.85,
+      "real_bookings": 1176,
+      "ghost_bookings": 2323
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-02",
+      "bookings": 3436,
+      "seats": 3436,
+      "revenue_passenger_paid": 8867.85,
+      "revenue_station_fee": 515.4,
+      "real_bookings": 1133,
+      "ghost_bookings": 2303
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-03",
+      "bookings": 3528,
+      "seats": 3528,
+      "revenue_passenger_paid": 9476.45,
+      "revenue_station_fee": 529.2,
+      "real_bookings": 1196,
+      "ghost_bookings": 2332
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-04",
+      "bookings": 3728,
+      "seats": 3728,
+      "revenue_passenger_paid": 9764.8,
+      "revenue_station_fee": 559.2,
+      "real_bookings": 1135,
+      "ghost_bookings": 2593
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-05",
+      "bookings": 3669,
+      "seats": 3669,
+      "revenue_passenger_paid": 9583.85,
+      "revenue_station_fee": 550.35,
+      "real_bookings": 1301,
+      "ghost_bookings": 2368
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-06",
+      "bookings": 3574,
+      "seats": 3574,
+      "revenue_passenger_paid": 10020.15,
+      "revenue_station_fee": 536.1,
+      "real_bookings": 1283,
+      "ghost_bookings": 2291
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-07",
+      "bookings": 4392,
+      "seats": 4392,
+      "revenue_passenger_paid": 11687.4,
+      "revenue_station_fee": 658.8,
+      "real_bookings": 1438,
+      "ghost_bookings": 2954
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-08",
+      "bookings": 3839,
+      "seats": 3839,
+      "revenue_passenger_paid": 10240.05,
+      "revenue_station_fee": 575.85,
+      "real_bookings": 1277,
+      "ghost_bookings": 2562
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-09",
+      "bookings": 4000,
+      "seats": 4000,
+      "revenue_passenger_paid": 10459.0,
+      "revenue_station_fee": 600.0,
+      "real_bookings": 1144,
+      "ghost_bookings": 2856
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-10",
+      "bookings": 3871,
+      "seats": 3871,
+      "revenue_passenger_paid": 10170.15,
+      "revenue_station_fee": 580.65,
+      "real_bookings": 1029,
+      "ghost_bookings": 2842
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-11",
+      "bookings": 3935,
+      "seats": 3935,
+      "revenue_passenger_paid": 10434.9,
+      "revenue_station_fee": 590.25,
+      "real_bookings": 1191,
+      "ghost_bookings": 2744
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-12",
+      "bookings": 3942,
+      "seats": 3942,
+      "revenue_passenger_paid": 10166.8,
+      "revenue_station_fee": 591.3,
+      "real_bookings": 1257,
+      "ghost_bookings": 2685
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-13",
+      "bookings": 3976,
+      "seats": 3976,
+      "revenue_passenger_paid": 10634.75,
+      "revenue_station_fee": 596.4,
+      "real_bookings": 1431,
+      "ghost_bookings": 2545
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-14",
+      "bookings": 4752,
+      "seats": 4752,
+      "revenue_passenger_paid": 11888.75,
+      "revenue_station_fee": 712.8,
+      "real_bookings": 1213,
+      "ghost_bookings": 3539
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-15",
+      "bookings": 4026,
+      "seats": 4026,
+      "revenue_passenger_paid": 9845.55,
+      "revenue_station_fee": 603.9,
+      "real_bookings": 1069,
+      "ghost_bookings": 2957
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-16",
+      "bookings": 3277,
+      "seats": 3277,
+      "revenue_passenger_paid": 8622.15,
+      "revenue_station_fee": 491.55,
+      "real_bookings": 1006,
+      "ghost_bookings": 2271
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-17",
+      "bookings": 3291,
+      "seats": 3291,
+      "revenue_passenger_paid": 8835.4,
+      "revenue_station_fee": 493.65,
+      "real_bookings": 911,
+      "ghost_bookings": 2380
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-18",
+      "bookings": 3172,
+      "seats": 3172,
+      "revenue_passenger_paid": 8633.65,
+      "revenue_station_fee": 475.8,
+      "real_bookings": 1098,
+      "ghost_bookings": 2074
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-19",
+      "bookings": 2353,
+      "seats": 2353,
+      "revenue_passenger_paid": 6506.3,
+      "revenue_station_fee": 352.95,
+      "real_bookings": 970,
+      "ghost_bookings": 1383
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-20",
+      "bookings": 2993,
+      "seats": 2993,
+      "revenue_passenger_paid": 8608.35,
+      "revenue_station_fee": 448.95,
+      "real_bookings": 1196,
+      "ghost_bookings": 1797
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-21",
+      "bookings": 3848,
+      "seats": 3848,
+      "revenue_passenger_paid": 10108.7,
+      "revenue_station_fee": 577.2,
+      "real_bookings": 1347,
+      "ghost_bookings": 2501
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-22",
+      "bookings": 3337,
+      "seats": 3337,
+      "revenue_passenger_paid": 8643.15,
+      "revenue_station_fee": 500.55,
+      "real_bookings": 1089,
+      "ghost_bookings": 2248
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-23",
+      "bookings": 3341,
+      "seats": 3341,
+      "revenue_passenger_paid": 8677.0,
+      "revenue_station_fee": 501.15,
+      "real_bookings": 1075,
+      "ghost_bookings": 2266
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-24",
+      "bookings": 3429,
+      "seats": 3429,
+      "revenue_passenger_paid": 9484.8,
+      "revenue_station_fee": 514.35,
+      "real_bookings": 1233,
+      "ghost_bookings": 2196
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-25",
+      "bookings": 3440,
+      "seats": 3440,
+      "revenue_passenger_paid": 8859.2,
+      "revenue_station_fee": 516.0,
+      "real_bookings": 1241,
+      "ghost_bookings": 2199
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-26",
+      "bookings": 3351,
+      "seats": 3351,
+      "revenue_passenger_paid": 8760.4,
+      "revenue_station_fee": 502.65,
+      "real_bookings": 1267,
+      "ghost_bookings": 2084
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-27",
+      "bookings": 3267,
+      "seats": 3267,
+      "revenue_passenger_paid": 9493.8,
+      "revenue_station_fee": 490.05,
+      "real_bookings": 1302,
+      "ghost_bookings": 1965
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-28",
+      "bookings": 3764,
+      "seats": 3764,
+      "revenue_passenger_paid": 9207.2,
+      "revenue_station_fee": 564.6,
+      "real_bookings": 1257,
+      "ghost_bookings": 2507
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-29",
+      "bookings": 3453,
+      "seats": 3453,
+      "revenue_passenger_paid": 9146.6,
+      "revenue_station_fee": 517.95,
+      "real_bookings": 1163,
+      "ghost_bookings": 2290
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-09-30",
+      "bookings": 3334,
+      "seats": 3334,
+      "revenue_passenger_paid": 8491.6,
+      "revenue_station_fee": 500.1,
+      "real_bookings": 1194,
+      "ghost_bookings": 2140
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-01",
+      "bookings": 3450,
+      "seats": 3450,
+      "revenue_passenger_paid": 8903.7,
+      "revenue_station_fee": 517.5,
+      "real_bookings": 1143,
+      "ghost_bookings": 2307
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-02",
+      "bookings": 3464,
+      "seats": 3464,
+      "revenue_passenger_paid": 9193.7,
+      "revenue_station_fee": 519.6,
+      "real_bookings": 1194,
+      "ghost_bookings": 2270
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-03",
+      "bookings": 3446,
+      "seats": 3446,
+      "revenue_passenger_paid": 8903.45,
+      "revenue_station_fee": 516.9,
+      "real_bookings": 1203,
+      "ghost_bookings": 2243
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-04",
+      "bookings": 3545,
+      "seats": 3545,
+      "revenue_passenger_paid": 9975.85,
+      "revenue_station_fee": 531.75,
+      "real_bookings": 1352,
+      "ghost_bookings": 2193
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-05",
+      "bookings": 3722,
+      "seats": 3722,
+      "revenue_passenger_paid": 9812.15,
+      "revenue_station_fee": 558.3,
+      "real_bookings": 1381,
+      "ghost_bookings": 2341
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-06",
+      "bookings": 3363,
+      "seats": 3363,
+      "revenue_passenger_paid": 8859.0,
+      "revenue_station_fee": 504.45,
+      "real_bookings": 1125,
+      "ghost_bookings": 2238
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-07",
+      "bookings": 3442,
+      "seats": 3442,
+      "revenue_passenger_paid": 8820.45,
+      "revenue_station_fee": 516.3,
+      "real_bookings": 1101,
+      "ghost_bookings": 2341
+    },
+    {
+      "station": "jemmal",
+      "created_date": "2026-10-08",
+      "bookings": 3535,
+      "seats": 3535,
+      "revenue_passenger_paid": 9412.65,
+      "revenue_station_fee": 530.25,
+      "real_bookings": 1272,
+      "ghost_bookings": 2263
     },
     {
       "station": "monastir",
@@ -3540,6 +4120,586 @@
       "revenue_station_fee": 543.15,
       "real_bookings": 0,
       "ghost_bookings": 3621
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-12",
+      "bookings": 3832,
+      "seats": 3832,
+      "revenue_passenger_paid": 7709.3,
+      "revenue_station_fee": 574.8,
+      "real_bookings": 0,
+      "ghost_bookings": 3832
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-13",
+      "bookings": 2258,
+      "seats": 2258,
+      "revenue_passenger_paid": 4560.05,
+      "revenue_station_fee": 338.7,
+      "real_bookings": 0,
+      "ghost_bookings": 2258
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-14",
+      "bookings": 3361,
+      "seats": 3361,
+      "revenue_passenger_paid": 6805.55,
+      "revenue_station_fee": 504.15,
+      "real_bookings": 0,
+      "ghost_bookings": 3361
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-15",
+      "bookings": 2436,
+      "seats": 2436,
+      "revenue_passenger_paid": 4893.0,
+      "revenue_station_fee": 365.4,
+      "real_bookings": 0,
+      "ghost_bookings": 2436
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-16",
+      "bookings": 1994,
+      "seats": 1994,
+      "revenue_passenger_paid": 3972.8,
+      "revenue_station_fee": 299.1,
+      "real_bookings": 0,
+      "ghost_bookings": 1994
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-17",
+      "bookings": 4094,
+      "seats": 4094,
+      "revenue_passenger_paid": 8213.35,
+      "revenue_station_fee": 614.1,
+      "real_bookings": 0,
+      "ghost_bookings": 4094
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-18",
+      "bookings": 2195,
+      "seats": 2195,
+      "revenue_passenger_paid": 4422.1,
+      "revenue_station_fee": 329.25,
+      "real_bookings": 0,
+      "ghost_bookings": 2195
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-19",
+      "bookings": 3504,
+      "seats": 3504,
+      "revenue_passenger_paid": 7093.55,
+      "revenue_station_fee": 525.6,
+      "real_bookings": 0,
+      "ghost_bookings": 3504
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-20",
+      "bookings": 3528,
+      "seats": 3528,
+      "revenue_passenger_paid": 7132.7,
+      "revenue_station_fee": 529.2,
+      "real_bookings": 0,
+      "ghost_bookings": 3528
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-21",
+      "bookings": 3286,
+      "seats": 3286,
+      "revenue_passenger_paid": 6644.35,
+      "revenue_station_fee": 492.9,
+      "real_bookings": 0,
+      "ghost_bookings": 3286
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-22",
+      "bookings": 2078,
+      "seats": 2078,
+      "revenue_passenger_paid": 4170.5,
+      "revenue_station_fee": 311.7,
+      "real_bookings": 0,
+      "ghost_bookings": 2078
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-23",
+      "bookings": 1989,
+      "seats": 1989,
+      "revenue_passenger_paid": 3949.1,
+      "revenue_station_fee": 298.35,
+      "real_bookings": 0,
+      "ghost_bookings": 1989
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-24",
+      "bookings": 3589,
+      "seats": 3589,
+      "revenue_passenger_paid": 7211.55,
+      "revenue_station_fee": 538.35,
+      "real_bookings": 0,
+      "ghost_bookings": 3589
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-25",
+      "bookings": 1544,
+      "seats": 1544,
+      "revenue_passenger_paid": 3105.9,
+      "revenue_station_fee": 231.6,
+      "real_bookings": 0,
+      "ghost_bookings": 1544
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-26",
+      "bookings": 2549,
+      "seats": 2549,
+      "revenue_passenger_paid": 5145.5,
+      "revenue_station_fee": 382.35,
+      "real_bookings": 0,
+      "ghost_bookings": 2549
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-27",
+      "bookings": 2721,
+      "seats": 2721,
+      "revenue_passenger_paid": 5494.5,
+      "revenue_station_fee": 408.15,
+      "real_bookings": 0,
+      "ghost_bookings": 2721
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-28",
+      "bookings": 2876,
+      "seats": 2876,
+      "revenue_passenger_paid": 5804.1,
+      "revenue_station_fee": 431.4,
+      "real_bookings": 0,
+      "ghost_bookings": 2876
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-29",
+      "bookings": 2252,
+      "seats": 2252,
+      "revenue_passenger_paid": 4536.75,
+      "revenue_station_fee": 337.8,
+      "real_bookings": 0,
+      "ghost_bookings": 2252
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-30",
+      "bookings": 1895,
+      "seats": 1895,
+      "revenue_passenger_paid": 3772.75,
+      "revenue_station_fee": 284.25,
+      "real_bookings": 0,
+      "ghost_bookings": 1895
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-08-31",
+      "bookings": 3639,
+      "seats": 3639,
+      "revenue_passenger_paid": 7300.2,
+      "revenue_station_fee": 545.85,
+      "real_bookings": 0,
+      "ghost_bookings": 3639
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-01",
+      "bookings": 3415,
+      "seats": 3415,
+      "revenue_passenger_paid": 6874.05,
+      "revenue_station_fee": 512.25,
+      "real_bookings": 0,
+      "ghost_bookings": 3415
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-02",
+      "bookings": 3272,
+      "seats": 3272,
+      "revenue_passenger_paid": 6611.75,
+      "revenue_station_fee": 490.8,
+      "real_bookings": 0,
+      "ghost_bookings": 3272
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-03",
+      "bookings": 3480,
+      "seats": 3480,
+      "revenue_passenger_paid": 7041.85,
+      "revenue_station_fee": 522.0,
+      "real_bookings": 0,
+      "ghost_bookings": 3480
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-04",
+      "bookings": 3476,
+      "seats": 3476,
+      "revenue_passenger_paid": 7025.5,
+      "revenue_station_fee": 521.4,
+      "real_bookings": 0,
+      "ghost_bookings": 3476
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-05",
+      "bookings": 2454,
+      "seats": 2454,
+      "revenue_passenger_paid": 4909.6,
+      "revenue_station_fee": 368.1,
+      "real_bookings": 0,
+      "ghost_bookings": 2454
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-06",
+      "bookings": 2209,
+      "seats": 2209,
+      "revenue_passenger_paid": 4391.3,
+      "revenue_station_fee": 331.35,
+      "real_bookings": 0,
+      "ghost_bookings": 2209
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-07",
+      "bookings": 4212,
+      "seats": 4212,
+      "revenue_passenger_paid": 8465.05,
+      "revenue_station_fee": 631.8,
+      "real_bookings": 0,
+      "ghost_bookings": 4212
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-08",
+      "bookings": 3936,
+      "seats": 3936,
+      "revenue_passenger_paid": 7914.65,
+      "revenue_station_fee": 590.4,
+      "real_bookings": 0,
+      "ghost_bookings": 3936
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-09",
+      "bookings": 3692,
+      "seats": 3692,
+      "revenue_passenger_paid": 7461.7,
+      "revenue_station_fee": 553.8,
+      "real_bookings": 0,
+      "ghost_bookings": 3692
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-10",
+      "bookings": 3582,
+      "seats": 3582,
+      "revenue_passenger_paid": 7229.75,
+      "revenue_station_fee": 537.3,
+      "real_bookings": 0,
+      "ghost_bookings": 3582
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-11",
+      "bookings": 3923,
+      "seats": 3923,
+      "revenue_passenger_paid": 7931.35,
+      "revenue_station_fee": 588.45,
+      "real_bookings": 0,
+      "ghost_bookings": 3923
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-12",
+      "bookings": 3135,
+      "seats": 3135,
+      "revenue_passenger_paid": 6256.05,
+      "revenue_station_fee": 470.25,
+      "real_bookings": 0,
+      "ghost_bookings": 3135
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-13",
+      "bookings": 2205,
+      "seats": 2205,
+      "revenue_passenger_paid": 4396.1,
+      "revenue_station_fee": 330.75,
+      "real_bookings": 0,
+      "ghost_bookings": 2205
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-14",
+      "bookings": 4740,
+      "seats": 4740,
+      "revenue_passenger_paid": 9498.0,
+      "revenue_station_fee": 711.0,
+      "real_bookings": 0,
+      "ghost_bookings": 4740
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-15",
+      "bookings": 3971,
+      "seats": 3971,
+      "revenue_passenger_paid": 8005.2,
+      "revenue_station_fee": 595.65,
+      "real_bookings": 0,
+      "ghost_bookings": 3971
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-16",
+      "bookings": 3726,
+      "seats": 3726,
+      "revenue_passenger_paid": 7506.9,
+      "revenue_station_fee": 558.9,
+      "real_bookings": 0,
+      "ghost_bookings": 3726
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-17",
+      "bookings": 3110,
+      "seats": 3110,
+      "revenue_passenger_paid": 6301.65,
+      "revenue_station_fee": 466.5,
+      "real_bookings": 0,
+      "ghost_bookings": 3110
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-18",
+      "bookings": 3598,
+      "seats": 3598,
+      "revenue_passenger_paid": 7262.3,
+      "revenue_station_fee": 539.7,
+      "real_bookings": 0,
+      "ghost_bookings": 3598
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-19",
+      "bookings": 2584,
+      "seats": 2584,
+      "revenue_passenger_paid": 5236.85,
+      "revenue_station_fee": 387.6,
+      "real_bookings": 0,
+      "ghost_bookings": 2584
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-20",
+      "bookings": 1774,
+      "seats": 1774,
+      "revenue_passenger_paid": 3551.0,
+      "revenue_station_fee": 266.1,
+      "real_bookings": 0,
+      "ghost_bookings": 1774
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-21",
+      "bookings": 4192,
+      "seats": 4192,
+      "revenue_passenger_paid": 8437.65,
+      "revenue_station_fee": 628.8,
+      "real_bookings": 0,
+      "ghost_bookings": 4192
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-22",
+      "bookings": 3755,
+      "seats": 3755,
+      "revenue_passenger_paid": 7572.2,
+      "revenue_station_fee": 563.25,
+      "real_bookings": 0,
+      "ghost_bookings": 3755
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-23",
+      "bookings": 3686,
+      "seats": 3686,
+      "revenue_passenger_paid": 7441.5,
+      "revenue_station_fee": 552.9,
+      "real_bookings": 0,
+      "ghost_bookings": 3686
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-24",
+      "bookings": 3815,
+      "seats": 3815,
+      "revenue_passenger_paid": 7700.75,
+      "revenue_station_fee": 572.25,
+      "real_bookings": 0,
+      "ghost_bookings": 3815
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-25",
+      "bookings": 4131,
+      "seats": 4131,
+      "revenue_passenger_paid": 8335.4,
+      "revenue_station_fee": 619.65,
+      "real_bookings": 0,
+      "ghost_bookings": 4131
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-26",
+      "bookings": 3103,
+      "seats": 3103,
+      "revenue_passenger_paid": 6255.25,
+      "revenue_station_fee": 465.45,
+      "real_bookings": 0,
+      "ghost_bookings": 3103
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-27",
+      "bookings": 1839,
+      "seats": 1839,
+      "revenue_passenger_paid": 3669.5,
+      "revenue_station_fee": 275.85,
+      "real_bookings": 0,
+      "ghost_bookings": 1839
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-28",
+      "bookings": 4458,
+      "seats": 4458,
+      "revenue_passenger_paid": 8982.25,
+      "revenue_station_fee": 668.7,
+      "real_bookings": 0,
+      "ghost_bookings": 4458
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-29",
+      "bookings": 4076,
+      "seats": 4076,
+      "revenue_passenger_paid": 8201.85,
+      "revenue_station_fee": 611.4,
+      "real_bookings": 0,
+      "ghost_bookings": 4076
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-09-30",
+      "bookings": 3802,
+      "seats": 3802,
+      "revenue_passenger_paid": 7694.6,
+      "revenue_station_fee": 570.3,
+      "real_bookings": 0,
+      "ghost_bookings": 3802
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-01",
+      "bookings": 3833,
+      "seats": 3833,
+      "revenue_passenger_paid": 7736.55,
+      "revenue_station_fee": 574.95,
+      "real_bookings": 0,
+      "ghost_bookings": 3833
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-02",
+      "bookings": 4355,
+      "seats": 4355,
+      "revenue_passenger_paid": 8752.8,
+      "revenue_station_fee": 653.25,
+      "real_bookings": 0,
+      "ghost_bookings": 4355
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-03",
+      "bookings": 3538,
+      "seats": 3538,
+      "revenue_passenger_paid": 7097.7,
+      "revenue_station_fee": 530.7,
+      "real_bookings": 0,
+      "ghost_bookings": 3538
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-04",
+      "bookings": 2101,
+      "seats": 2101,
+      "revenue_passenger_paid": 4203.05,
+      "revenue_station_fee": 315.15,
+      "real_bookings": 0,
+      "ghost_bookings": 2101
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-05",
+      "bookings": 4331,
+      "seats": 4331,
+      "revenue_passenger_paid": 8724.6,
+      "revenue_station_fee": 649.65,
+      "real_bookings": 0,
+      "ghost_bookings": 4331
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-06",
+      "bookings": 4070,
+      "seats": 4070,
+      "revenue_passenger_paid": 8166.75,
+      "revenue_station_fee": 610.5,
+      "real_bookings": 0,
+      "ghost_bookings": 4070
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-07",
+      "bookings": 3777,
+      "seats": 3777,
+      "revenue_passenger_paid": 7638.35,
+      "revenue_station_fee": 566.55,
+      "real_bookings": 0,
+      "ghost_bookings": 3777
+    },
+    {
+      "station": "monastir",
+      "created_date": "2026-10-08",
+      "bookings": 3845,
+      "seats": 3845,
+      "revenue_passenger_paid": 7724.55,
+      "revenue_station_fee": 576.75,
+      "real_bookings": 0,
+      "ghost_bookings": 3845
     }
   ]
 }

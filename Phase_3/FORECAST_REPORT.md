@@ -6,29 +6,29 @@ Horizon: **7-day** | Validation: **walk-forward CV, 4 folds of 7 days** | Weekly
 
 | Series | Window | Days | Total bookings | Mean/day |
 |---|---|---:|---:|---:|
-| Jemmal | 2026-06-08 → 2026-08-11 | 65 | 149,953 | 2,307 |
-| Monastir | 2025-10-13 → 2026-08-11 | 303 | 1,038,329 | 3,427 |
-| Total | 2025-10-13 → 2026-08-11 | 303 | 1,188,282 | 3,922 |
+| Jemmal | 2026-06-08 → 2026-10-08 | 123 | 355,579 | 2,891 |
+| Monastir | 2025-10-13 → 2026-10-08 | 361 | 1,227,150 | 3,399 |
+| Total | 2025-10-13 → 2026-10-08 | 361 | 1,582,729 | 4,384 |
 
-*Partial trailing day (extraction day) dropped to avoid skewing MAPE (see 01_prep.py).*
+*The trailing extraction day is dropped when it falls below 25% of the prior week's volume (see 01_prep.py); in this run it was a full-volume day and was kept.*
 
 ## 2. Model comparison — walk-forward CV (MAPE mean ± std over folds)
 
 | Series | Naive | Seasonal naive | Seasonal median | Weekly mean | SARIMA | Prophet |
 |---|---:|---:|---:|---:|---:|---:|
-| Jemmal | 9.1% ± 2.2% | 11.6% ± 1.7% | 10.7% ± 2.4% | 10.9% ± 2.1% | 11.1% ± 3.2% | 36.9% ± 8.1% |
-| Monastir | 20.9% ± 3.6% | 10.3% ± 5.0% | 11.2% ± 5.9% | 18.4% ± 3.7% | 11.2% ± 6.8% | 14.7% ± 11.2% |
-| Total | 12.8% ± 2.9% | 10.1% ± 2.9% | 9.6% ± 1.8% | 12.5% ± 2.3% | 9.2% ± 3.7% | 13.7% ± 4.0% |
+| Jemmal | 6.3% ± 3.7% | 11.5% ± 8.2% | 10.5% ± 5.5% | 10.4% ± 7.9% | 8.2% ± 2.2% | 22.7% ± 15.6% |
+| Monastir | 21.7% ± 3.4% | 8.5% ± 3.1% | 9.7% ± 4.1% | 21.9% ± 2.9% | 9.8% ± 1.0% | 12.5% ± 1.5% |
+| Total | 11.9% ± 3.4% | 9.8% ± 5.6% | 8.3% ± 4.2% | 13.2% ± 4.1% | 6.0% ± 1.8% | 10.7% ± 4.8% |
 
 ### Best model per series (by mean MAPE)
 
-- **Jemmal** → **naive** (MAPE 9.1% ± 2.2%, RMSE 440 ± 124 bookings/day)
-- **Monastir** → **seasonal_naive** (MAPE 10.3% ± 5.0%, RMSE 392 ± 203 bookings/day)
-- **Total** → **sarima** (MAPE 9.2% ± 3.7%, RMSE 741 ± 249 bookings/day)
+- **Jemmal** → **naive** (MAPE 6.3% ± 3.7%, RMSE 291 ± 158 bookings/day)
+- **Monastir** → **seasonal_naive** (MAPE 8.5% ± 3.1%, RMSE 351 ± 91 bookings/day)
+- **Total** → **sarima** (MAPE 6.0% ± 1.8%, RMSE 496 ± 151 bookings/day)
 
 ### Readout
 
-- **SARIMA auto-selection**: order chosen by AIC on the full series, then reused for every fold (no test-set leakage). Orders: jemmal=[0, 0, 0, 1], monastir=[0, 1, 0, 1], total=[0, 1, 0, 1].
+- **SARIMA auto-selection**: order chosen by AIC on the full series, then reused for every fold (no test-set leakage). Orders: jemmal=[1, 0, 0, 1], monastir=[0, 1, 0, 1], total=[0, 1, 0, 1].
 - On **short/noisy series (Jemmal)** simple persistence (naive) is best — 66 days is too little for a stable seasonal model.
 - On **long stable series (Monastir)** seasonal persistence and SARIMA are comparable; the seasonal pattern dominates.
 - **Prophet** is consistently worse here: it over-parametrizes for daily re-runs and short history.
@@ -36,49 +36,49 @@ Horizon: **7-day** | Validation: **walk-forward CV, 4 folds of 7 days** | Weekly
 
 ## 3. Final 7-day forecast (refit on full data, model from CV)
 
-### Jemmal — model: `naive` (trained through 2026-08-11)
+### Jemmal — model: `naive` (trained through 2026-10-08)
 
 | Date | Forecast | 95% CI |
 |---|---:|---:|
-| 2026-08-12 | 3,632 | 3,632–3,632 |
-| 2026-08-13 | 3,632 | 3,632–3,632 |
-| 2026-08-14 | 3,632 | 3,632–3,632 |
-| 2026-08-15 | 3,632 | 3,632–3,632 |
-| 2026-08-16 | 3,632 | 3,632–3,632 |
-| 2026-08-17 | 3,632 | 3,632–3,632 |
-| 2026-08-18 | 3,632 | 3,632–3,632 |
+| 2026-10-09 | 3,535 | 3,535–3,535 |
+| 2026-10-10 | 3,535 | 3,535–3,535 |
+| 2026-10-11 | 3,535 | 3,535–3,535 |
+| 2026-10-12 | 3,535 | 3,535–3,535 |
+| 2026-10-13 | 3,535 | 3,535–3,535 |
+| 2026-10-14 | 3,535 | 3,535–3,535 |
+| 2026-10-15 | 3,535 | 3,535–3,535 |
 
-### Monastir — model: `seasonal_naive` (trained through 2026-08-11)
-
-| Date | Forecast | 95% CI |
-|---|---:|---:|
-| 2026-08-12 | 3,442 | — |
-| 2026-08-13 | 3,542 | — |
-| 2026-08-14 | 3,389 | — |
-| 2026-08-15 | 2,613 | — |
-| 2026-08-16 | 2,503 | — |
-| 2026-08-17 | 4,248 | — |
-| 2026-08-18 | 3,621 | — |
-
-### Total — model: `sarima` (trained through 2026-08-11)
+### Monastir — model: `seasonal_naive` (trained through 2026-10-08)
 
 | Date | Forecast | 95% CI |
 |---|---:|---:|
-| 2026-08-12 | 7,406 | 6,067–8,746 |
-| 2026-08-13 | 7,447 | 5,938–8,956 |
-| 2026-08-14 | 7,276 | 5,615–8,937 |
-| 2026-08-15 | 6,676 | 4,876–8,476 |
-| 2026-08-16 | 6,132 | 4,202–8,062 |
-| 2026-08-17 | 8,293 | 6,242–10,343 |
-| 2026-08-18 | 7,678 | 5,513–9,843 |
+| 2026-10-09 | 4,355 | — |
+| 2026-10-10 | 3,538 | — |
+| 2026-10-11 | 2,101 | — |
+| 2026-10-12 | 4,331 | — |
+| 2026-10-13 | 4,070 | — |
+| 2026-10-14 | 3,777 | — |
+| 2026-10-15 | 3,845 | — |
+
+### Total — model: `sarima` (trained through 2026-10-08)
+
+| Date | Forecast | 95% CI |
+|---|---:|---:|
+| 2026-10-09 | 7,402 | 6,052–8,751 |
+| 2026-10-10 | 6,514 | 5,002–8,025 |
+| 2026-10-11 | 5,852 | 4,194–7,511 |
+| 2026-10-12 | 8,428 | 6,635–10,221 |
+| 2026-10-13 | 7,418 | 5,500–9,336 |
+| 2026-10-14 | 7,396 | 5,360–9,431 |
+| 2026-10-15 | 7,333 | 5,186–9,480 |
 
 ## 4. Anomaly detection (3 detectors + consensus)
 
 | Series | Rolling z | WoW-diff z | IsolationForest | Consensus |
 |---|---:|---:|---:|---:|
-| Jemmal | 2 | 1 | 2 | 1 |
-| Monastir | 0 | 7 | 7 | 2 |
-| Total | 0 | 6 | 7 | 2 |
+| Jemmal | 2 | 1 | 3 | 1 |
+| Monastir | 0 | 8 | 8 | 2 |
+| Total | 0 | 6 | 8 | 2 |
 
 ### Consensus-flagged days (≥2 detectors, or a zero-booking day on a busy series)
 

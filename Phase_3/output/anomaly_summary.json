@@ -2,7 +2,7 @@
   "jemmal": {
     "rolling_z": 2,
     "wow_z": 1,
-    "isolation_forest": 2,
+    "isolation_forest": 3,
     "consensus": 1,
     "flag_days": [
       {
@@ -17,8 +17,8 @@
   },
   "monastir": {
     "rolling_z": 0,
-    "wow_z": 7,
-    "isolation_forest": 7,
+    "wow_z": 8,
+    "isolation_forest": 8,
     "consensus": 2,
     "flag_days": [
       {
@@ -42,7 +42,7 @@
   "total": {
     "rolling_z": 0,
     "wow_z": 6,
-    "isolation_forest": 7,
+    "isolation_forest": 8,
     "consensus": 2,
     "flag_days": [
       {

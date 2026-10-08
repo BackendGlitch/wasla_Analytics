@@ -1,5 +1,5 @@
 {
-  "data_through": "2026-08-11",
+  "data_through": "2026-10-08",
   "daily": [
     {
       "created_date": "2025-10-13",
@@ -1800,6 +1800,354 @@
       "passenger_paid": 17584.5,
       "station_fee": 1087.95,
       "real_passenger_paid": 4772.2
+    },
+    {
+      "created_date": "2026-08-12",
+      "passenger_paid": 18307.7,
+      "station_fee": 1160.7,
+      "real_passenger_paid": 4790.4
+    },
+    {
+      "created_date": "2026-08-13",
+      "passenger_paid": 13398.35,
+      "station_fee": 811.35,
+      "real_passenger_paid": 5516.85
+    },
+    {
+      "created_date": "2026-08-14",
+      "passenger_paid": 17834.25,
+      "station_fee": 1103.4,
+      "real_passenger_paid": 4993.45
+    },
+    {
+      "created_date": "2026-08-15",
+      "passenger_paid": 14781.3,
+      "station_fee": 905.7,
+      "real_passenger_paid": 5843.4
+    },
+    {
+      "created_date": "2026-08-16",
+      "passenger_paid": 13777.4,
+      "station_fee": 825.3,
+      "real_passenger_paid": 5093.8
+    },
+    {
+      "created_date": "2026-08-17",
+      "passenger_paid": 20038.1,
+      "station_fee": 1260.6,
+      "real_passenger_paid": 6058.45
+    },
+    {
+      "created_date": "2026-08-18",
+      "passenger_paid": 14852.6,
+      "station_fee": 882.45,
+      "real_passenger_paid": 4584.15
+    },
+    {
+      "created_date": "2026-08-19",
+      "passenger_paid": 17062.85,
+      "station_fee": 1088.7,
+      "real_passenger_paid": 4205.95
+    },
+    {
+      "created_date": "2026-08-20",
+      "passenger_paid": 17661.5,
+      "station_fee": 1119.45,
+      "real_passenger_paid": 5015.45
+    },
+    {
+      "created_date": "2026-08-21",
+      "passenger_paid": 15852.95,
+      "station_fee": 1017.9,
+      "real_passenger_paid": 4800.6
+    },
+    {
+      "created_date": "2026-08-22",
+      "passenger_paid": 14177.9,
+      "station_fee": 831.9,
+      "real_passenger_paid": 6297.65
+    },
+    {
+      "created_date": "2026-08-23",
+      "passenger_paid": 12721.0,
+      "station_fee": 762.75,
+      "real_passenger_paid": 5357.85
+    },
+    {
+      "created_date": "2026-08-24",
+      "passenger_paid": 17690.25,
+      "station_fee": 1138.2,
+      "real_passenger_paid": 5811.75
+    },
+    {
+      "created_date": "2026-08-25",
+      "passenger_paid": 9602.35,
+      "station_fee": 591.15,
+      "real_passenger_paid": 3854.6
+    },
+    {
+      "created_date": "2026-08-26",
+      "passenger_paid": 13488.6,
+      "station_fee": 860.25,
+      "real_passenger_paid": 4602.5
+    },
+    {
+      "created_date": "2026-08-27",
+      "passenger_paid": 13704.65,
+      "station_fee": 896.1,
+      "real_passenger_paid": 3988.25
+    },
+    {
+      "created_date": "2026-08-28",
+      "passenger_paid": 14068.55,
+      "station_fee": 892.95,
+      "real_passenger_paid": 4543.75
+    },
+    {
+      "created_date": "2026-08-29",
+      "passenger_paid": 13052.45,
+      "station_fee": 813.0,
+      "real_passenger_paid": 4935.65
+    },
+    {
+      "created_date": "2026-08-30",
+      "passenger_paid": 12416.05,
+      "station_fee": 739.65,
+      "real_passenger_paid": 5062.45
+    },
+    {
+      "created_date": "2026-08-31",
+      "passenger_paid": 16979.45,
+      "station_fee": 1117.8,
+      "real_passenger_paid": 4033.5
+    },
+    {
+      "created_date": "2026-09-01",
+      "passenger_paid": 16170.85,
+      "station_fee": 1037.1,
+      "real_passenger_paid": 5072.65
+    },
+    {
+      "created_date": "2026-09-02",
+      "passenger_paid": 15479.6,
+      "station_fee": 1006.2,
+      "real_passenger_paid": 4683.2
+    },
+    {
+      "created_date": "2026-09-03",
+      "passenger_paid": 16518.3,
+      "station_fee": 1051.2,
+      "real_passenger_paid": 5150.55
+    },
+    {
+      "created_date": "2026-09-04",
+      "passenger_paid": 16790.3,
+      "station_fee": 1080.6,
+      "real_passenger_paid": 5066.65
+    },
+    {
+      "created_date": "2026-09-05",
+      "passenger_paid": 14493.45,
+      "station_fee": 918.45,
+      "real_passenger_paid": 5438.55
+    },
+    {
+      "created_date": "2026-09-06",
+      "passenger_paid": 14411.45,
+      "station_fee": 867.45,
+      "real_passenger_paid": 5877.2
+    },
+    {
+      "created_date": "2026-09-07",
+      "passenger_paid": 20152.45,
+      "station_fee": 1290.6,
+      "real_passenger_paid": 6510.9
+    },
+    {
+      "created_date": "2026-09-08",
+      "passenger_paid": 18154.7,
+      "station_fee": 1166.25,
+      "real_passenger_paid": 5333.25
+    },
+    {
+      "created_date": "2026-09-09",
+      "passenger_paid": 17920.7,
+      "station_fee": 1153.8,
+      "real_passenger_paid": 5126.3
+    },
+    {
+      "created_date": "2026-09-10",
+      "passenger_paid": 17399.9,
+      "station_fee": 1117.95,
+      "real_passenger_paid": 4725.85
+    },
+    {
+      "created_date": "2026-09-11",
+      "passenger_paid": 18366.25,
+      "station_fee": 1178.7,
+      "real_passenger_paid": 5259.5
+    },
+    {
+      "created_date": "2026-09-12",
+      "passenger_paid": 16422.85,
+      "station_fee": 1061.55,
+      "real_passenger_paid": 5144.65
+    },
+    {
+      "created_date": "2026-09-13",
+      "passenger_paid": 15030.85,
+      "station_fee": 927.15,
+      "real_passenger_paid": 6119.3
+    },
+    {
+      "created_date": "2026-09-14",
+      "passenger_paid": 21386.75,
+      "station_fee": 1423.8,
+      "real_passenger_paid": 5311.1
+    },
+    {
+      "created_date": "2026-09-15",
+      "passenger_paid": 17850.75,
+      "station_fee": 1199.55,
+      "real_passenger_paid": 4395.7
+    },
+    {
+      "created_date": "2026-09-16",
+      "passenger_paid": 16129.05,
+      "station_fee": 1050.45,
+      "real_passenger_paid": 4270.45
+    },
+    {
+      "created_date": "2026-09-17",
+      "passenger_paid": 15137.05,
+      "station_fee": 960.15,
+      "real_passenger_paid": 4127.5
+    },
+    {
+      "created_date": "2026-09-18",
+      "passenger_paid": 15895.95,
+      "station_fee": 1015.5,
+      "real_passenger_paid": 4862.85
+    },
+    {
+      "created_date": "2026-09-19",
+      "passenger_paid": 11743.15,
+      "station_fee": 740.55,
+      "real_passenger_paid": 4007.35
+    },
+    {
+      "created_date": "2026-09-20",
+      "passenger_paid": 12159.35,
+      "station_fee": 715.05,
+      "real_passenger_paid": 5462.8
+    },
+    {
+      "created_date": "2026-09-21",
+      "passenger_paid": 18546.35,
+      "station_fee": 1206.0,
+      "real_passenger_paid": 5441.2
+    },
+    {
+      "created_date": "2026-09-22",
+      "passenger_paid": 16215.35,
+      "station_fee": 1063.8,
+      "real_passenger_paid": 4571.75
+    },
+    {
+      "created_date": "2026-09-23",
+      "passenger_paid": 16118.5,
+      "station_fee": 1054.05,
+      "real_passenger_paid": 4544.4
+    },
+    {
+      "created_date": "2026-09-24",
+      "passenger_paid": 17185.55,
+      "station_fee": 1086.6,
+      "real_passenger_paid": 5556.5
+    },
+    {
+      "created_date": "2026-09-25",
+      "passenger_paid": 17194.6,
+      "station_fee": 1135.65,
+      "real_passenger_paid": 4908.95
+    },
+    {
+      "created_date": "2026-09-26",
+      "passenger_paid": 15015.65,
+      "station_fee": 968.1,
+      "real_passenger_paid": 5037.5
+    },
+    {
+      "created_date": "2026-09-27",
+      "passenger_paid": 13163.3,
+      "station_fee": 765.9,
+      "real_passenger_paid": 6013.45
+    },
+    {
+      "created_date": "2026-09-28",
+      "passenger_paid": 18189.45,
+      "station_fee": 1233.3,
+      "real_passenger_paid": 4676.05
+    },
+    {
+      "created_date": "2026-09-29",
+      "passenger_paid": 17348.45,
+      "station_fee": 1129.35,
+      "real_passenger_paid": 4995.8
+    },
+    {
+      "created_date": "2026-09-30",
+      "passenger_paid": 16186.2,
+      "station_fee": 1070.4,
+      "real_passenger_paid": 4732.5
+    },
+    {
+      "created_date": "2026-10-01",
+      "passenger_paid": 16640.25,
+      "station_fee": 1092.45,
+      "real_passenger_paid": 4609.25
+    },
+    {
+      "created_date": "2026-10-02",
+      "passenger_paid": 17946.5,
+      "station_fee": 1172.85,
+      "real_passenger_paid": 4926.7
+    },
+    {
+      "created_date": "2026-10-03",
+      "passenger_paid": 16001.15,
+      "station_fee": 1047.6,
+      "real_passenger_paid": 4739.2
+    },
+    {
+      "created_date": "2026-10-04",
+      "passenger_paid": 14178.9,
+      "station_fee": 846.9,
+      "real_passenger_paid": 6067.4
+    },
+    {
+      "created_date": "2026-10-05",
+      "passenger_paid": 18536.75,
+      "station_fee": 1207.95,
+      "real_passenger_paid": 5676.6
+    },
+    {
+      "created_date": "2026-10-06",
+      "passenger_paid": 17025.75,
+      "station_fee": 1114.95,
+      "real_passenger_paid": 4769.8
+    },
+    {
+      "created_date": "2026-10-07",
+      "passenger_paid": 16458.8,
+      "station_fee": 1082.85,
+      "real_passenger_paid": 4552.9
+    },
+    {
+      "created_date": "2026-10-08",
+      "passenger_paid": 17137.2,
+      "station_fee": 1107.0,
+      "real_passenger_paid": 5298.9
     }
   ],
   "real_vs_ghost": [
@@ -3302,53 +3650,343 @@
       "date": "2026-08-11",
       "real": 4772.2,
       "ghost": 12812.3
+    },
+    {
+      "date": "2026-08-12",
+      "real": 4790.4,
+      "ghost": 13517.3
+    },
+    {
+      "date": "2026-08-13",
+      "real": 5516.85,
+      "ghost": 7881.5
+    },
+    {
+      "date": "2026-08-14",
+      "real": 4993.45,
+      "ghost": 12840.8
+    },
+    {
+      "date": "2026-08-15",
+      "real": 5843.4,
+      "ghost": 8937.9
+    },
+    {
+      "date": "2026-08-16",
+      "real": 5093.8,
+      "ghost": 8683.6
+    },
+    {
+      "date": "2026-08-17",
+      "real": 6058.45,
+      "ghost": 13979.65
+    },
+    {
+      "date": "2026-08-18",
+      "real": 4584.15,
+      "ghost": 10268.45
+    },
+    {
+      "date": "2026-08-19",
+      "real": 4205.95,
+      "ghost": 12856.9
+    },
+    {
+      "date": "2026-08-20",
+      "real": 5015.45,
+      "ghost": 12646.05
+    },
+    {
+      "date": "2026-08-21",
+      "real": 4800.6,
+      "ghost": 11052.35
+    },
+    {
+      "date": "2026-08-22",
+      "real": 6297.65,
+      "ghost": 7880.25
+    },
+    {
+      "date": "2026-08-23",
+      "real": 5357.85,
+      "ghost": 7363.15
+    },
+    {
+      "date": "2026-08-24",
+      "real": 5811.75,
+      "ghost": 11878.5
+    },
+    {
+      "date": "2026-08-25",
+      "real": 3854.6,
+      "ghost": 5747.75
+    },
+    {
+      "date": "2026-08-26",
+      "real": 4602.5,
+      "ghost": 8886.1
+    },
+    {
+      "date": "2026-08-27",
+      "real": 3988.25,
+      "ghost": 9716.4
+    },
+    {
+      "date": "2026-08-28",
+      "real": 4543.75,
+      "ghost": 9524.8
+    },
+    {
+      "date": "2026-08-29",
+      "real": 4935.65,
+      "ghost": 8116.8
+    },
+    {
+      "date": "2026-08-30",
+      "real": 5062.45,
+      "ghost": 7353.6
+    },
+    {
+      "date": "2026-08-31",
+      "real": 4033.5,
+      "ghost": 12945.95
+    },
+    {
+      "date": "2026-09-01",
+      "real": 5072.65,
+      "ghost": 11098.2
+    },
+    {
+      "date": "2026-09-02",
+      "real": 4683.2,
+      "ghost": 10796.4
+    },
+    {
+      "date": "2026-09-03",
+      "real": 5150.55,
+      "ghost": 11367.75
+    },
+    {
+      "date": "2026-09-04",
+      "real": 5066.65,
+      "ghost": 11723.65
+    },
+    {
+      "date": "2026-09-05",
+      "real": 5438.55,
+      "ghost": 9054.9
+    },
+    {
+      "date": "2026-09-06",
+      "real": 5877.2,
+      "ghost": 8534.25
+    },
+    {
+      "date": "2026-09-07",
+      "real": 6510.9,
+      "ghost": 13641.55
+    },
+    {
+      "date": "2026-09-08",
+      "real": 5333.25,
+      "ghost": 12821.45
+    },
+    {
+      "date": "2026-09-09",
+      "real": 5126.3,
+      "ghost": 12794.4
+    },
+    {
+      "date": "2026-09-10",
+      "real": 4725.85,
+      "ghost": 12674.05
+    },
+    {
+      "date": "2026-09-11",
+      "real": 5259.5,
+      "ghost": 13106.75
+    },
+    {
+      "date": "2026-09-12",
+      "real": 5144.65,
+      "ghost": 11278.2
+    },
+    {
+      "date": "2026-09-13",
+      "real": 6119.3,
+      "ghost": 8911.55
+    },
+    {
+      "date": "2026-09-14",
+      "real": 5311.1,
+      "ghost": 16075.65
+    },
+    {
+      "date": "2026-09-15",
+      "real": 4395.7,
+      "ghost": 13455.05
+    },
+    {
+      "date": "2026-09-16",
+      "real": 4270.45,
+      "ghost": 11858.6
+    },
+    {
+      "date": "2026-09-17",
+      "real": 4127.5,
+      "ghost": 11009.55
+    },
+    {
+      "date": "2026-09-18",
+      "real": 4862.85,
+      "ghost": 11033.1
+    },
+    {
+      "date": "2026-09-19",
+      "real": 4007.35,
+      "ghost": 7735.8
+    },
+    {
+      "date": "2026-09-20",
+      "real": 5462.8,
+      "ghost": 6696.55
+    },
+    {
+      "date": "2026-09-21",
+      "real": 5441.2,
+      "ghost": 13105.15
+    },
+    {
+      "date": "2026-09-22",
+      "real": 4571.75,
+      "ghost": 11643.6
+    },
+    {
+      "date": "2026-09-23",
+      "real": 4544.4,
+      "ghost": 11574.1
+    },
+    {
+      "date": "2026-09-24",
+      "real": 5556.5,
+      "ghost": 11629.05
+    },
+    {
+      "date": "2026-09-25",
+      "real": 4908.95,
+      "ghost": 12285.65
+    },
+    {
+      "date": "2026-09-26",
+      "real": 5037.5,
+      "ghost": 9978.15
+    },
+    {
+      "date": "2026-09-27",
+      "real": 6013.45,
+      "ghost": 7149.85
+    },
+    {
+      "date": "2026-09-28",
+      "real": 4676.05,
+      "ghost": 13513.4
+    },
+    {
+      "date": "2026-09-29",
+      "real": 4995.8,
+      "ghost": 12352.65
+    },
+    {
+      "date": "2026-09-30",
+      "real": 4732.5,
+      "ghost": 11453.7
+    },
+    {
+      "date": "2026-10-01",
+      "real": 4609.25,
+      "ghost": 12031.0
+    },
+    {
+      "date": "2026-10-02",
+      "real": 4926.7,
+      "ghost": 13019.8
+    },
+    {
+      "date": "2026-10-03",
+      "real": 4739.2,
+      "ghost": 11261.95
+    },
+    {
+      "date": "2026-10-04",
+      "real": 6067.4,
+      "ghost": 8111.5
+    },
+    {
+      "date": "2026-10-05",
+      "real": 5676.6,
+      "ghost": 12860.15
+    },
+    {
+      "date": "2026-10-06",
+      "real": 4769.8,
+      "ghost": 12255.95
+    },
+    {
+      "date": "2026-10-07",
+      "real": 4552.9,
+      "ghost": 11905.9
+    },
+    {
+      "date": "2026-10-08",
+      "real": 5298.9,
+      "ghost": 11838.3
     }
   ],
   "by_route": [
     {
       "station": "jemmal",
       "destination_canonical": "Monastir",
-      "bookings": 60918,
-      "revenue_passenger_paid": 118898.95,
-      "revenue_station_fee": 9145.95,
-      "avg_ticket": 1.9517868282,
-      "ghost_rate": 0.9932696412
+      "bookings": 144485,
+      "revenue_passenger_paid": 281854.6,
+      "revenue_station_fee": 21681.0,
+      "avg_ticket": 1.9507533654,
+      "ghost_rate": 0.9971554141
     },
     {
       "station": "jemmal",
       "destination_canonical": "Sousse",
-      "bookings": 36673,
-      "revenue_passenger_paid": 104423.8,
-      "revenue_station_fee": 5502.45,
-      "avg_ticket": 2.8474299894,
-      "ghost_rate": 0.5570583263
+      "bookings": 87670,
+      "revenue_passenger_paid": 249765.25,
+      "revenue_station_fee": 13152.0,
+      "avg_ticket": 2.8489249458,
+      "ghost_rate": 0.2846127524
     },
     {
       "station": "jemmal",
       "destination_canonical": "Ksar Hlel",
-      "bookings": 34533,
-      "revenue_passenger_paid": 50084.45,
-      "revenue_station_fee": 5181.15,
-      "avg_ticket": 1.4503359106,
-      "ghost_rate": 0.9995077173
+      "bookings": 82452,
+      "revenue_passenger_paid": 119567.0,
+      "revenue_station_fee": 12369.0,
+      "avg_ticket": 1.4501406879,
+      "ghost_rate": 0.9989448406
     },
     {
       "station": "jemmal",
       "destination_canonical": "Souassi",
-      "bookings": 13421,
-      "revenue_passenger_paid": 63806.75,
-      "revenue_station_fee": 2014.95,
-      "avg_ticket": 4.7542470755,
-      "ghost_rate": 0.5822964012
+      "bookings": 30953,
+      "revenue_passenger_paid": 147083.75,
+      "revenue_station_fee": 4644.75,
+      "avg_ticket": 4.7518415016,
+      "ghost_rate": 0.3195813007
     },
     {
       "station": "jemmal",
       "destination_canonical": "Tunis",
-      "bookings": 4341,
-      "revenue_passenger_paid": 70757.5,
-      "revenue_station_fee": 684.75,
-      "avg_ticket": 16.2998157107,
-      "ghost_rate": 0.0165860401
+      "bookings": 9952,
+      "revenue_passenger_paid": 157728.0,
+      "revenue_station_fee": 1526.4,
+      "avg_ticket": 15.8488745981,
+      "ghost_rate": 0.0103496785
     },
     {
       "station": "jemmal",
@@ -3362,38 +4000,38 @@
     {
       "station": "monastir",
       "destination_canonical": "Jemmal",
-      "bookings": 429293,
-      "revenue_passenger_paid": 838100.75,
-      "revenue_station_fee": 64467.45,
-      "avg_ticket": 1.9522814255,
-      "ghost_rate": 0.9991264707
+      "bookings": 508292,
+      "revenue_passenger_paid": 992148.7999999999,
+      "revenue_station_fee": 76317.3,
+      "avg_ticket": 1.9519268452,
+      "ghost_rate": 0.9992622351
     },
     {
       "station": "monastir",
       "destination_canonical": "Ksar Hlel",
-      "bookings": 372625,
-      "revenue_passenger_paid": 709183.6,
-      "revenue_station_fee": 55988.7,
-      "avg_ticket": 1.9032099296,
-      "ghost_rate": 0.9999033881
+      "bookings": 439344,
+      "revenue_passenger_paid": 835949.7,
+      "revenue_station_fee": 65996.55,
+      "avg_ticket": 1.902722468,
+      "ghost_rate": 0.9999180597
     },
     {
       "station": "monastir",
       "destination_canonical": "Moknin",
-      "bookings": 155867,
-      "revenue_passenger_paid": 343578.1,
-      "revenue_station_fee": 23425.8,
-      "avg_ticket": 2.2043030276,
-      "ghost_rate": 0.9999871685
+      "bookings": 186105,
+      "revenue_passenger_paid": 410101.7,
+      "revenue_station_fee": 27961.5,
+      "avg_ticket": 2.2036038795,
+      "ghost_rate": 0.9999892534
     },
     {
       "station": "monastir",
       "destination_canonical": "Teboulba",
-      "bookings": 70559,
-      "revenue_passenger_paid": 180266.7,
-      "revenue_station_fee": 10603.95,
-      "avg_ticket": 2.5548363781,
-      "ghost_rate": 0.9999574824
+      "bookings": 83424,
+      "revenue_passenger_paid": 213072.45,
+      "revenue_station_fee": 12533.7,
+      "avg_ticket": 2.5540905495,
+      "ghost_rate": 0.9999640391
     },
     {
       "station": "monastir",

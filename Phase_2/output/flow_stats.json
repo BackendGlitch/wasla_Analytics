@@ -1,19 +1,19 @@
 {
   "ghost_note": "ghost bookings are pre-generated/offline drafts (is_verified=false). 'Real' = is_ghost=false.",
   "jemmal": {
-    "total_bookings": 149969,
-    "real_bookings": 26629,
-    "ghost_rate": 0.8224366369049604,
-    "avg_bookings_per_day": 2726.7090909090907,
-    "peak_hour": 6,
-    "peak_offpeak_ratio": 3.3245010323468684
+    "total_bookings": 355579,
+    "real_bookings": 94193,
+    "ghost_rate": 0.7350996543665402,
+    "avg_bookings_per_day": 3174.8125,
+    "peak_hour": 7,
+    "peak_offpeak_ratio": 2.904047172339855
   },
   "monastir": {
-    "total_bookings": 1038329,
+    "total_bookings": 1227150,
     "real_bookings": 10401,
-    "ghost_rate": 0.9899829437490429,
-    "avg_bookings_per_day": 3461.096666666667,
+    "ghost_rate": 0.9915242635374648,
+    "avg_bookings_per_day": 3427.7932960893854,
     "peak_hour": 12,
-    "peak_offpeak_ratio": 3.2810146959547177
+    "peak_offpeak_ratio": 3.2422724019001756
   }
 }

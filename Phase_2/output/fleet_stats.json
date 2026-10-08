@@ -1,20 +1,20 @@
 {
   "jemmal": {
-    "trips": 3732,
-    "vehicles_seen": 136,
-    "trips_per_vehicle": 26.352941176470587,
-    "avg_load_factor": 0.9040228285077951,
-    "load_factor_coverage": 0.962486602357985,
+    "trips": 12948,
+    "vehicles_seen": 160,
+    "trips_per_vehicle": 80.0,
+    "avg_load_factor": 0.9090607432854466,
+    "load_factor_coverage": 0.9891875193080012,
     "date_from": "2026-06-07 08:39:57.593216",
-    "date_to": "2026-08-12 04:10:46.945672"
+    "date_to": "2026-10-08 18:06:30.749333"
   },
   "monastir": {
-    "trips": 1260,
-    "vehicles_seen": 117,
-    "trips_per_vehicle": 9.085470085470085,
-    "avg_load_factor": 0.9877392344497608,
-    "load_factor_coverage": 0.33174603174603173,
+    "trips": 1261,
+    "vehicles_seen": 112,
+    "trips_per_vehicle": 9.178571428571429,
+    "avg_load_factor": 0.985381861575179,
+    "load_factor_coverage": 0.33227597145122917,
     "date_from": "2025-10-19 00:21:16.593000",
-    "date_to": "2026-04-20 17:15:34.306000"
+    "date_to": "2026-09-17 11:45:13.639000"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "data_through": "2026-08-11",
+  "data_through": "2026-10-08",
   "caveat": "Indicative: Monastir trips carry vehicle capacity on ~33% of rows.",
   "summary": {
     "jemmal": {
-      "active_vehicles": 136,
-      "trips_per_vehicle": 26.352941176470587,
-      "avg_load_factor": 0.9040228285077951,
-      "capacity_coverage_pct": 0.962486602357985
+      "active_vehicles": 160,
+      "trips_per_vehicle": 80.0,
+      "avg_load_factor": 0.9090607432854466,
+      "capacity_coverage_pct": 0.9891875193080012
     },
     "monastir": {
-      "active_vehicles": 117,
-      "trips_per_vehicle": 9.085470085470085,
-      "avg_load_factor": 0.9877392344497608,
-      "capacity_coverage_pct": 0.33174603174603173
+      "active_vehicles": 112,
+      "trips_per_vehicle": 9.178571428571429,
+      "avg_load_factor": 0.985381861575179,
+      "capacity_coverage_pct": 0.33227597145122917
     }
   },
   "daily": [
@@ -341,6 +341,354 @@
       "load_factor": 0.8948412698
     },
     {
+      "station": "jemmal",
+      "date": "2026-08-12",
+      "trips": 128,
+      "load_factor": 0.892578125
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-13",
+      "trips": 167,
+      "load_factor": 0.9453592814
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-14",
+      "trips": 140,
+      "load_factor": 0.8544642857
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-15",
+      "trips": 181,
+      "load_factor": 0.9606353591
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-16",
+      "trips": 155,
+      "load_factor": 0.8435483871
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-17",
+      "trips": 173,
+      "load_factor": 0.9219653179
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-18",
+      "trips": 130,
+      "load_factor": 0.8740384615
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-19",
+      "trips": 136,
+      "load_factor": 0.7867647059
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-20",
+      "trips": 170,
+      "load_factor": 0.8816176471
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-21",
+      "trips": 161,
+      "load_factor": 0.8858695652
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-22",
+      "trips": 187,
+      "load_factor": 0.9177807487
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-23",
+      "trips": 155,
+      "load_factor": 0.9572580645
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-24",
+      "trips": 186,
+      "load_factor": 0.9314516129
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-25",
+      "trips": 126,
+      "load_factor": 0.8859126984
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-26",
+      "trips": 158,
+      "load_factor": 0.9026898734
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-27",
+      "trips": 152,
+      "load_factor": 0.8511513158
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-28",
+      "trips": 148,
+      "load_factor": 0.8842905405
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-29",
+      "trips": 154,
+      "load_factor": 0.9358766234
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-30",
+      "trips": 154,
+      "load_factor": 0.8944805195
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-31",
+      "trips": 125,
+      "load_factor": 0.839
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-01",
+      "trips": 164,
+      "load_factor": 0.8917682927
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-02",
+      "trips": 162,
+      "load_factor": 0.8657407407
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-03",
+      "trips": 167,
+      "load_factor": 0.8847305389
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-04",
+      "trips": 164,
+      "load_factor": 0.8612804878
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-05",
+      "trips": 175,
+      "load_factor": 0.9214285714
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-06",
+      "trips": 175,
+      "load_factor": 0.9114285714
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-07",
+      "trips": 194,
+      "load_factor": 0.9130154639
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-08",
+      "trips": 171,
+      "load_factor": 0.9364035088
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-09",
+      "trips": 147,
+      "load_factor": 0.962585034
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-10",
+      "trips": 141,
+      "load_factor": 0.9095744681
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-11",
+      "trips": 162,
+      "load_factor": 0.9197530864
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-12",
+      "trips": 164,
+      "load_factor": 0.9527439024
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-13",
+      "trips": 190,
+      "load_factor": 0.9355263158
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-14",
+      "trips": 160,
+      "load_factor": 0.94375
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-15",
+      "trips": 142,
+      "load_factor": 0.9295774648
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-16",
+      "trips": 138,
+      "load_factor": 0.9030797101
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-17",
+      "trips": 128,
+      "load_factor": 0.8818359375
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-18",
+      "trips": 146,
+      "load_factor": 0.9383561644
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-19",
+      "trips": 139,
+      "load_factor": 0.8660071942
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-20",
+      "trips": 162,
+      "load_factor": 0.9174382716
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-21",
+      "trips": 180,
+      "load_factor": 0.9361111111
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-22",
+      "trips": 151,
+      "load_factor": 0.8981788079
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-23",
+      "trips": 146,
+      "load_factor": 0.9169520548
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-24",
+      "trips": 163,
+      "load_factor": 0.9401840491
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-25",
+      "trips": 168,
+      "load_factor": 0.9181547619
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-26",
+      "trips": 168,
+      "load_factor": 0.9360119048
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-27",
+      "trips": 166,
+      "load_factor": 0.9728915663
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-28",
+      "trips": 179,
+      "load_factor": 0.8729050279
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-29",
+      "trips": 149,
+      "load_factor": 0.9563758389
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-09-30",
+      "trips": 162,
+      "load_factor": 0.912037037
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-01",
+      "trips": 150,
+      "load_factor": 0.9441666667
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-02",
+      "trips": 173,
+      "load_factor": 0.8598265896
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-03",
+      "trips": 159,
+      "load_factor": 0.9386792453
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-04",
+      "trips": 179,
+      "load_factor": 0.938547486
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-05",
+      "trips": 180,
+      "load_factor": 0.9513888889
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-06",
+      "trips": 157,
+      "load_factor": 0.8853503185
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-07",
+      "trips": 147,
+      "load_factor": 0.9226190476
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-10-08",
+      "trips": 166,
+      "load_factor": 0.9487951807
+    },
+    {
       "station": "monastir",
       "date": "2025-10-19",
       "trips": 2,
@@ -609,6 +957,12 @@
       "date": "2026-04-20",
       "trips": 3,
       "load_factor": null
+    },
+    {
+      "station": "monastir",
+      "date": "2026-09-17",
+      "trips": 1,
+      "load_factor": 0.0
     }
   ]
 }

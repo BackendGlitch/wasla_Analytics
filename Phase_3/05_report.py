@@ -40,7 +40,7 @@ def main() -> None:
         d = series_desc[key]
         add(f"| {key.capitalize()} | {d['start']} → {d['end']} | {d['n_days']} | {d['total']:,} | {d['mean']:,.0f} |")
     add("")
-    add("*Partial trailing day (extraction day) dropped to avoid skewing MAPE (see 01_prep.py).*")
+    add("*The trailing extraction day is dropped when it falls below 25% of the prior week's volume (see 01_prep.py); in this run it was a full-volume day and was kept.*")
     add("")
     add("## 2. Model comparison — walk-forward CV (MAPE mean ± std over folds)")
     add("")
