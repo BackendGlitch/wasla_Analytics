@@ -9,3 +9,5 @@ __pycache__/
 *.key
 *.env
 .DS_Store
+# playwright MCP session artifacts
+.playwright-mcp/
