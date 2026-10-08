@@ -29,8 +29,9 @@ STATION_FEE_PER_SEAT = 0.15
 
 
 def write(name: str, obj: dict) -> None:
-    MOCK.mkdir(parents=True, exist_ok=True)
-    with open(MOCK / f"{name}.json", "w") as f:
+    target = MOCK / f"{name}.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with open(target, "w") as f:
         json.dump(obj, f, indent=2)
     print(f"  mock/{name}.json")
 
@@ -123,8 +124,8 @@ def flow(be: pd.DataFrame, dt: str) -> None:
         .sort_values(["station", "created_date"])
     )
     daily["ghost_bookings"] = daily["bookings"] - daily["real_bookings"]
-    write("flow_hourly", {"data_through": dt, "series": recs(hourly)})
-    write("flow_daily", {"data_through": dt, "series": recs(daily)})
+    write("flow/hourly", {"data_through": dt, "series": recs(hourly)})
+    write("flow/daily", {"data_through": dt, "series": recs(daily)})
 
 
 def revenue(be: pd.DataFrame, dt: str) -> None:

@@ -30,8 +30,8 @@ async function get<T>(name: string): Promise<T> {
 }
 
 export const fetchOverview = () => get<OverviewResponse>("overview");
-export const fetchFlowHourly = () => get<FlowHourlyResponse>("flow_hourly");
-export const fetchFlowDaily = () => get<FlowDailyResponse>("flow_daily");
+export const fetchFlowHourly = () => get<FlowHourlyResponse>("flow/hourly");
+export const fetchFlowDaily = () => get<FlowDailyResponse>("flow/daily");
 export const fetchRevenue = () => get<RevenueResponse>("revenue");
 export const fetchRoutes = () => get<RoutesResponse>("routes");
 export const fetchFleet = () => get<FleetResponse>("fleet");

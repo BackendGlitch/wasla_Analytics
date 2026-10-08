@@ -74,8 +74,8 @@ def main() -> None:
           == o["stations"]["jemmal"]["bookings_latest_day"] + o["stations"]["monastir"]["bookings_latest_day"])
 
     # ---- flow ----
-    fh = json.load(open(MOCK / "flow_hourly.json"))
-    fd = json.load(open(MOCK / "flow_daily.json"))
+    fh = json.load(open(MOCK / "flow/hourly.json"))
+    fd = json.load(open(MOCK / "flow/daily.json"))
     check("flow_hourly total bookings",
           sum(r["bookings"] for r in fh["series"]) == len(sub),
           f"{sum(r['bookings'] for r in fh['series'])} != {len(sub)}")
