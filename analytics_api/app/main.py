@@ -6,7 +6,7 @@ broadcasts minutely live counts. Never writes to production DBs.
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
@@ -124,5 +124,5 @@ def api_refresh():
 
 
 @app.websocket("/ws/live")
-async def ws_live(websocket):
+async def ws_live(websocket: WebSocket):
     await feed.connect(websocket)

@@ -60,3 +60,11 @@ def test_routes_has_groups():
 def test_unknown_endpoint_is_404():
     with client() as c:
         assert c.get("/api/nope").status_code == 404
+
+
+def test_ws_live_accepts_handshake():
+    """Regression: an unannotated websocket param made FastAPI treat it as a
+    required query param, closing with 1008 before accept (client sees 403)."""
+    with client() as c:
+        with c.websocket_connect("/ws/live") as ws:
+            assert ws is not None
