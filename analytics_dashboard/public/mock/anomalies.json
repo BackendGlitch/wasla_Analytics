@@ -1,0 +1,52 @@
+{
+  "data_through": "2026-08-11",
+  "anomalies": [
+    {
+      "date": "2026-01-20",
+      "station": "monastir",
+      "bookings": 0,
+      "detectors": [
+        "wow_z"
+      ],
+      "zero_day": true
+    },
+    {
+      "date": "2026-01-20",
+      "station": "total",
+      "bookings": 0,
+      "detectors": [
+        "wow_z"
+      ],
+      "zero_day": true
+    },
+    {
+      "date": "2026-05-27",
+      "station": "monastir",
+      "bookings": 0,
+      "detectors": [
+        "wow_z"
+      ],
+      "zero_day": true
+    },
+    {
+      "date": "2026-05-27",
+      "station": "total",
+      "bookings": 0,
+      "detectors": [
+        "wow_z"
+      ],
+      "zero_day": true
+    },
+    {
+      "date": "2026-06-29",
+      "station": "jemmal",
+      "bookings": 2553,
+      "detectors": [
+        "rolling_z",
+        "wow_z",
+        "iso"
+      ],
+      "zero_day": false
+    }
+  ]
+}

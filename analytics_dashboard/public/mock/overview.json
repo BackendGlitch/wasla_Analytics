@@ -1,0 +1,36 @@
+{
+  "data_through": "2026-08-11",
+  "totals": {
+    "bookings_latest_day": 7253,
+    "revenue_passenger_paid_latest_day": 17584.5,
+    "revenue_station_fee_latest_day": 1087.9499999999998,
+    "real_bookings_latest_day": 907,
+    "ghost_bookings_latest_day": 6346,
+    "active_vehicles": 253,
+    "trips_latest_day": 126
+  },
+  "stations": {
+    "jemmal": {
+      "bookings_latest_day": 3632,
+      "revenue_passenger_paid_latest_day": 10296.75,
+      "revenue_station_fee_latest_day": 544.8,
+      "real_bookings_latest_day": 907,
+      "ghost_bookings_latest_day": 2725,
+      "active_vehicles": 136,
+      "trips_latest_day": 126
+    },
+    "monastir": {
+      "bookings_latest_day": 3621,
+      "revenue_passenger_paid_latest_day": 7287.749999999998,
+      "revenue_station_fee_latest_day": 543.1499999999999,
+      "real_bookings_latest_day": 0,
+      "ghost_bookings_latest_day": 3621,
+      "active_vehicles": 117,
+      "trips_latest_day": 0
+    }
+  },
+  "anomaly_today": {
+    "jemmal": null,
+    "monastir": null
+  }
+}

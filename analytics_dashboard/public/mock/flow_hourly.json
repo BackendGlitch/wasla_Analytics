@@ -1,0 +1,313 @@
+{
+  "data_through": "2026-08-11",
+  "series": [
+    {
+      "station": "jemmal",
+      "hour": 0,
+      "bookings": 2,
+      "seats": 2,
+      "revenue_station_fee": 0.3
+    },
+    {
+      "station": "jemmal",
+      "hour": 1,
+      "bookings": 12,
+      "seats": 14,
+      "revenue_station_fee": 2.1
+    },
+    {
+      "station": "jemmal",
+      "hour": 2,
+      "bookings": 26,
+      "seats": 26,
+      "revenue_station_fee": 3.9
+    },
+    {
+      "station": "jemmal",
+      "hour": 3,
+      "bookings": 627,
+      "seats": 627,
+      "revenue_station_fee": 94.05
+    },
+    {
+      "station": "jemmal",
+      "hour": 4,
+      "bookings": 1227,
+      "seats": 1227,
+      "revenue_station_fee": 184.05
+    },
+    {
+      "station": "jemmal",
+      "hour": 5,
+      "bookings": 5998,
+      "seats": 6004,
+      "revenue_station_fee": 900.6
+    },
+    {
+      "station": "jemmal",
+      "hour": 6,
+      "bookings": 19322,
+      "seats": 19380,
+      "revenue_station_fee": 2907.0
+    },
+    {
+      "station": "jemmal",
+      "hour": 7,
+      "bookings": 16999,
+      "seats": 17027,
+      "revenue_station_fee": 2554.05
+    },
+    {
+      "station": "jemmal",
+      "hour": 8,
+      "bookings": 17570,
+      "seats": 17605,
+      "revenue_station_fee": 2640.75
+    },
+    {
+      "station": "jemmal",
+      "hour": 9,
+      "bookings": 15331,
+      "seats": 15372,
+      "revenue_station_fee": 2305.8
+    },
+    {
+      "station": "jemmal",
+      "hour": 10,
+      "bookings": 12368,
+      "seats": 12434,
+      "revenue_station_fee": 1865.1
+    },
+    {
+      "station": "jemmal",
+      "hour": 11,
+      "bookings": 9500,
+      "seats": 9514,
+      "revenue_station_fee": 1427.1
+    },
+    {
+      "station": "jemmal",
+      "hour": 12,
+      "bookings": 9854,
+      "seats": 9858,
+      "revenue_station_fee": 1478.7
+    },
+    {
+      "station": "jemmal",
+      "hour": 13,
+      "bookings": 10343,
+      "seats": 10346,
+      "revenue_station_fee": 1551.9
+    },
+    {
+      "station": "jemmal",
+      "hour": 14,
+      "bookings": 5491,
+      "seats": 5492,
+      "revenue_station_fee": 823.8
+    },
+    {
+      "station": "jemmal",
+      "hour": 15,
+      "bookings": 5812,
+      "seats": 5813,
+      "revenue_station_fee": 871.95
+    },
+    {
+      "station": "jemmal",
+      "hour": 16,
+      "bookings": 6299,
+      "seats": 6300,
+      "revenue_station_fee": 945.0
+    },
+    {
+      "station": "jemmal",
+      "hour": 17,
+      "bookings": 6393,
+      "seats": 6422,
+      "revenue_station_fee": 963.3
+    },
+    {
+      "station": "jemmal",
+      "hour": 18,
+      "bookings": 5130,
+      "seats": 5136,
+      "revenue_station_fee": 770.4
+    },
+    {
+      "station": "jemmal",
+      "hour": 19,
+      "bookings": 1622,
+      "seats": 1622,
+      "revenue_station_fee": 243.3
+    },
+    {
+      "station": "jemmal",
+      "hour": 20,
+      "bookings": 19,
+      "seats": 33,
+      "revenue_station_fee": 4.95
+    },
+    {
+      "station": "jemmal",
+      "hour": 21,
+      "bookings": 3,
+      "seats": 3,
+      "revenue_station_fee": 0.45
+    },
+    {
+      "station": "jemmal",
+      "hour": 22,
+      "bookings": 5,
+      "seats": 5,
+      "revenue_station_fee": 0.75
+    },
+    {
+      "station": "monastir",
+      "hour": 0,
+      "bookings": 37,
+      "seats": 50,
+      "revenue_station_fee": 7.5
+    },
+    {
+      "station": "monastir",
+      "hour": 1,
+      "bookings": 2,
+      "seats": 2,
+      "revenue_station_fee": 0.3
+    },
+    {
+      "station": "monastir",
+      "hour": 5,
+      "bookings": 7,
+      "seats": 9,
+      "revenue_station_fee": 1.35
+    },
+    {
+      "station": "monastir",
+      "hour": 6,
+      "bookings": 629,
+      "seats": 631,
+      "revenue_station_fee": 94.65
+    },
+    {
+      "station": "monastir",
+      "hour": 7,
+      "bookings": 29377,
+      "seats": 29416,
+      "revenue_station_fee": 4412.4
+    },
+    {
+      "station": "monastir",
+      "hour": 8,
+      "bookings": 38514,
+      "seats": 38532,
+      "revenue_station_fee": 5779.8
+    },
+    {
+      "station": "monastir",
+      "hour": 9,
+      "bookings": 52458,
+      "seats": 52508,
+      "revenue_station_fee": 7876.2
+    },
+    {
+      "station": "monastir",
+      "hour": 10,
+      "bookings": 83668,
+      "seats": 83780,
+      "revenue_station_fee": 12567.0
+    },
+    {
+      "station": "monastir",
+      "hour": 11,
+      "bookings": 114461,
+      "seats": 114532,
+      "revenue_station_fee": 17179.8
+    },
+    {
+      "station": "monastir",
+      "hour": 12,
+      "bookings": 126365,
+      "seats": 126487,
+      "revenue_station_fee": 18973.05
+    },
+    {
+      "station": "monastir",
+      "hour": 13,
+      "bookings": 121376,
+      "seats": 121514,
+      "revenue_station_fee": 18227.1
+    },
+    {
+      "station": "monastir",
+      "hour": 14,
+      "bookings": 103747,
+      "seats": 103846,
+      "revenue_station_fee": 15576.9
+    },
+    {
+      "station": "monastir",
+      "hour": 15,
+      "bookings": 106426,
+      "seats": 106516,
+      "revenue_station_fee": 15977.4
+    },
+    {
+      "station": "monastir",
+      "hour": 16,
+      "bookings": 94188,
+      "seats": 94282,
+      "revenue_station_fee": 14142.3
+    },
+    {
+      "station": "monastir",
+      "hour": 17,
+      "bookings": 84065,
+      "seats": 84249,
+      "revenue_station_fee": 12637.35
+    },
+    {
+      "station": "monastir",
+      "hour": 18,
+      "bookings": 49970,
+      "seats": 50073,
+      "revenue_station_fee": 7510.95
+    },
+    {
+      "station": "monastir",
+      "hour": 19,
+      "bookings": 29775,
+      "seats": 30164,
+      "revenue_station_fee": 4524.6
+    },
+    {
+      "station": "monastir",
+      "hour": 20,
+      "bookings": 1720,
+      "seats": 1924,
+      "revenue_station_fee": 288.6
+    },
+    {
+      "station": "monastir",
+      "hour": 21,
+      "bookings": 732,
+      "seats": 782,
+      "revenue_station_fee": 117.3
+    },
+    {
+      "station": "monastir",
+      "hour": 22,
+      "bookings": 541,
+      "seats": 565,
+      "revenue_station_fee": 84.75
+    },
+    {
+      "station": "monastir",
+      "hour": 23,
+      "bookings": 271,
+      "seats": 292,
+      "revenue_station_fee": 43.8
+    }
+  ]
+}

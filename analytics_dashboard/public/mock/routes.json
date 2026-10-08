@@ -1,0 +1,115 @@
+{
+  "data_through": "2026-08-11",
+  "groups": [
+    "Jemmal",
+    "Ksar Hlel",
+    "Moknin",
+    "Monastir",
+    "Souassi",
+    "Sousse",
+    "Teboulba",
+    "Tunis",
+    "Unknown"
+  ],
+  "routes": [
+    {
+      "station": "jemmal",
+      "destination_canonical": "Monastir",
+      "bookings": 60918,
+      "revenue_passenger_paid": 118898.95,
+      "revenue_station_fee": 9145.95,
+      "avg_ticket": 1.9517868282,
+      "ghost_rate": 0.9932696412
+    },
+    {
+      "station": "jemmal",
+      "destination_canonical": "Sousse",
+      "bookings": 36673,
+      "revenue_passenger_paid": 104423.8,
+      "revenue_station_fee": 5502.45,
+      "avg_ticket": 2.8474299894,
+      "ghost_rate": 0.5570583263
+    },
+    {
+      "station": "jemmal",
+      "destination_canonical": "Ksar Hlel",
+      "bookings": 34533,
+      "revenue_passenger_paid": 50084.45,
+      "revenue_station_fee": 5181.15,
+      "avg_ticket": 1.4503359106,
+      "ghost_rate": 0.9995077173
+    },
+    {
+      "station": "jemmal",
+      "destination_canonical": "Souassi",
+      "bookings": 13421,
+      "revenue_passenger_paid": 63806.75,
+      "revenue_station_fee": 2014.95,
+      "avg_ticket": 4.7542470755,
+      "ghost_rate": 0.5822964012
+    },
+    {
+      "station": "jemmal",
+      "destination_canonical": "Tunis",
+      "bookings": 4341,
+      "revenue_passenger_paid": 70757.5,
+      "revenue_station_fee": 684.75,
+      "avg_ticket": 16.2998157107,
+      "ghost_rate": 0.0165860401
+    },
+    {
+      "station": "jemmal",
+      "destination_canonical": "Unknown",
+      "bookings": 67,
+      "revenue_passenger_paid": 249.65,
+      "revenue_station_fee": 10.05,
+      "avg_ticket": 3.726119403,
+      "ghost_rate": 0.0
+    },
+    {
+      "station": "monastir",
+      "destination_canonical": "Jemmal",
+      "bookings": 429293,
+      "revenue_passenger_paid": 838100.75,
+      "revenue_station_fee": 64467.45,
+      "avg_ticket": 1.9522814255,
+      "ghost_rate": 0.9991264707
+    },
+    {
+      "station": "monastir",
+      "destination_canonical": "Ksar Hlel",
+      "bookings": 372625,
+      "revenue_passenger_paid": 709183.6,
+      "revenue_station_fee": 55988.7,
+      "avg_ticket": 1.9032099296,
+      "ghost_rate": 0.9999033881
+    },
+    {
+      "station": "monastir",
+      "destination_canonical": "Moknin",
+      "bookings": 155867,
+      "revenue_passenger_paid": 343578.1,
+      "revenue_station_fee": 23425.8,
+      "avg_ticket": 2.2043030276,
+      "ghost_rate": 0.9999871685
+    },
+    {
+      "station": "monastir",
+      "destination_canonical": "Teboulba",
+      "bookings": 70559,
+      "revenue_passenger_paid": 180266.7,
+      "revenue_station_fee": 10603.95,
+      "avg_ticket": 2.5548363781,
+      "ghost_rate": 0.9999574824
+    },
+    {
+      "station": "monastir",
+      "destination_canonical": "Unknown",
+      "bookings": 9985,
+      "revenue_passenger_paid": 19558.2,
+      "revenue_station_fee": 1537.2,
+      "avg_ticket": 1.9587581372,
+      "ghost_rate": 0.0
+    }
+  ]
+}

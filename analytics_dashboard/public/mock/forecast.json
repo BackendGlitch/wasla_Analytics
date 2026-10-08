@@ -1,0 +1,329 @@
+{
+  "data_through": "2026-08-11",
+  "disclaimer": "Forecast volume includes ghost/draft bookings. Revenue must be evaluated on real bookings only.",
+  "forecasts": [
+    {
+      "station": "jemmal",
+      "model": "naive",
+      "mape": 0.09149372364468634,
+      "mape_std": 0.021535223207379797,
+      "horizon_days": 7,
+      "forecast": [
+        {
+          "date": "2026-08-12",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-13",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-14",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-15",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-16",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-17",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        },
+        {
+          "date": "2026-08-18",
+          "yhat": 3632.0,
+          "lo": 3632.0,
+          "hi": 3632.0
+        }
+      ]
+    },
+    {
+      "station": "monastir",
+      "model": "seasonal_naive",
+      "mape": 0.10316734475255443,
+      "mape_std": 0.049811088405538356,
+      "horizon_days": 7,
+      "forecast": [
+        {
+          "date": "2026-08-12",
+          "yhat": 3442.0,
+          "lo": 3442.0,
+          "hi": 3442.0
+        },
+        {
+          "date": "2026-08-13",
+          "yhat": 3542.0,
+          "lo": 3542.0,
+          "hi": 3542.0
+        },
+        {
+          "date": "2026-08-14",
+          "yhat": 3389.0,
+          "lo": 3389.0,
+          "hi": 3389.0
+        },
+        {
+          "date": "2026-08-15",
+          "yhat": 2613.0,
+          "lo": 2613.0,
+          "hi": 2613.0
+        },
+        {
+          "date": "2026-08-16",
+          "yhat": 2503.0,
+          "lo": 2503.0,
+          "hi": 2503.0
+        },
+        {
+          "date": "2026-08-17",
+          "yhat": 4248.0,
+          "lo": 4248.0,
+          "hi": 4248.0
+        },
+        {
+          "date": "2026-08-18",
+          "yhat": 3621.0,
+          "lo": 3621.0,
+          "hi": 3621.0
+        }
+      ]
+    },
+    {
+      "station": "total",
+      "model": "sarima",
+      "mape": 0.09175199223250227,
+      "mape_std": 0.036758167947317476,
+      "horizon_days": 7,
+      "forecast": [
+        {
+          "date": "2026-08-12",
+          "yhat": 7406.4,
+          "lo": 6066.8,
+          "hi": 8746.0
+        },
+        {
+          "date": "2026-08-13",
+          "yhat": 7446.6,
+          "lo": 5937.7,
+          "hi": 8955.5
+        },
+        {
+          "date": "2026-08-14",
+          "yhat": 7276.4,
+          "lo": 5615.4,
+          "hi": 8937.4
+        },
+        {
+          "date": "2026-08-15",
+          "yhat": 6676.0,
+          "lo": 4875.7,
+          "hi": 8476.4
+        },
+        {
+          "date": "2026-08-16",
+          "yhat": 6132.1,
+          "lo": 4202.4,
+          "hi": 8061.7
+        },
+        {
+          "date": "2026-08-17",
+          "yhat": 8292.6,
+          "lo": 6241.8,
+          "hi": 10343.4
+        },
+        {
+          "date": "2026-08-18",
+          "yhat": 7677.9,
+          "lo": 5512.7,
+          "hi": 9843.0
+        }
+      ]
+    }
+  ],
+  "pred_vs_actual": [
+    {
+      "station": "jemmal",
+      "date": "2026-07-29 00:00:00",
+      "actual": 3653.0,
+      "predicted": 3552.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-07-30 00:00:00",
+      "actual": 3719.0,
+      "predicted": 3653.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-07-31 00:00:00",
+      "actual": 3551.0,
+      "predicted": 3719.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-01 00:00:00",
+      "actual": 3603.0,
+      "predicted": 3551.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-02 00:00:00",
+      "actual": 2188.0,
+      "predicted": 3603.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-03 00:00:00",
+      "actual": 3993.0,
+      "predicted": 2188.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-04 00:00:00",
+      "actual": 3498.0,
+      "predicted": 3993.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-05 00:00:00",
+      "actual": 3613.0,
+      "predicted": 3498.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-06 00:00:00",
+      "actual": 3847.0,
+      "predicted": 3613.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-07 00:00:00",
+      "actual": 3457.0,
+      "predicted": 3847.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-08 00:00:00",
+      "actual": 3619.0,
+      "predicted": 3457.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-09 00:00:00",
+      "actual": 3723.0,
+      "predicted": 3619.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-10 00:00:00",
+      "actual": 4413.0,
+      "predicted": 3723.0
+    },
+    {
+      "station": "jemmal",
+      "date": "2026-08-11 00:00:00",
+      "actual": 3632.0,
+      "predicted": 4413.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-07-29 00:00:00",
+      "actual": 3572.0,
+      "predicted": 3308.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-07-30 00:00:00",
+      "actual": 3575.0,
+      "predicted": 3189.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-07-31 00:00:00",
+      "actual": 3200.0,
+      "predicted": 3260.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-01 00:00:00",
+      "actual": 2682.0,
+      "predicted": 2205.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-02 00:00:00",
+      "actual": 2449.0,
+      "predicted": 2243.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-03 00:00:00",
+      "actual": 4099.0,
+      "predicted": 4216.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-04 00:00:00",
+      "actual": 3538.0,
+      "predicted": 3900.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-05 00:00:00",
+      "actual": 3442.0,
+      "predicted": 3572.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-06 00:00:00",
+      "actual": 3542.0,
+      "predicted": 3575.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-07 00:00:00",
+      "actual": 3389.0,
+      "predicted": 3200.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-08 00:00:00",
+      "actual": 2613.0,
+      "predicted": 2682.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-09 00:00:00",
+      "actual": 2503.0,
+      "predicted": 2449.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-10 00:00:00",
+      "actual": 4248.0,
+      "predicted": 4099.0
+    },
+    {
+      "station": "monastir",
+      "date": "2026-08-11 00:00:00",
+      "actual": 3621.0,
+      "predicted": 3538.0
+    }
+  ]
+}
