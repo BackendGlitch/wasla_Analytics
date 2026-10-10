@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  10 OCT 2026 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  10 OCT 2026 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,7 +314,7 @@ Package hyperref Info: Link coloring ON on input line 21.
 File: bacekdendglitch_logo.png Graphic file (type png)
 <use bacekdendglitch_logo.png>
 Package pdftex.def Info: bacekdendglitch_logo.png  used on input line 27.
-(pdftex.def)             Requested size: 198.37183pt x 198.35715pt.
+(pdftex.def)             Requested size: 141.69621pt x 141.68039pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -325,23 +325,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: stamp_e-sign.png Graphic file (type png)
 <use stamp_e-sign.png>
 Package pdftex.def Info: stamp_e-sign.png  used on input line 47.
-(pdftex.def)             Requested size: 108.12054pt x 48.13075pt.
+(pdftex.def)             Requested size: 91.04872pt x 40.53143pt.
 <qr_repo.png, id=39, 297.11pt x 297.11pt>
 File: qr_repo.png Graphic file (type png)
 <use qr_repo.png>
 Package pdftex.def Info: qr_repo.png  used on input line 59.
-(pdftex.def)             Requested size: 88.2037pt x 88.2043pt.
+(pdftex.def)             Requested size: 73.97733pt x 73.9781pt.
 <qr_platform.png, id=40, 264.99pt x 264.99pt>
 File: qr_platform.png Graphic file (type png)
 <use qr_platform.png>
 Package pdftex.def Info: qr_platform.png  used on input line 60.
-(pdftex.def)             Requested size: 88.2037pt x 88.20308pt.
+(pdftex.def)             Requested size: 73.97733pt x 73.97835pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bacekdendglitch_logo.png
 > <./stamp_e-sign.png> <./qr_repo.png (PNG copy)> <./qr_platform.png (PNG copy)
->] [2]
-<dhraief_logo.png, id=57, 501.875pt x 501.875pt>
+>]
+<dhraief_logo.png, id=53, 501.875pt x 501.875pt>
 File: dhraief_logo.png Graphic file (type png)
 <use dhraief_logo.png>
 Package pdftex.def Info: dhraief_logo.png  used on input line 77.
@@ -353,26 +353,21 @@ been already used, duplicate ignored
                    \relax 
 l.115 \subsection
                  *{Phase 1: getting the data out} [1 <./dhraief_logo.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.176 
-       [2]
-<../Phase_2/charts/flow_hourly.png, id=75, 794.97pt x 361.35pt>
+[2]
+<../Phase_2/charts/flow_hourly.png, id=72, 794.97pt x 361.35pt>
 File: ../Phase_2/charts/flow_hourly.png Graphic file (type png)
 <use ../Phase_2/charts/flow_hourly.png>
 Package pdftex.def Info: ../Phase_2/charts/flow_hourly.png  used on input line 
 179.
 (pdftex.def)             Requested size: 377.85419pt x 171.75331pt.
-<../Phase_3/charts/forecast_total.png, id=76, 867.24pt x 361.35pt>
+<../Phase_3/charts/forecast_total.png, id=73, 867.24pt x 361.35pt>
 File: ../Phase_3/charts/forecast_total.png Graphic file (type png)
 <use ../Phase_3/charts/forecast_total.png>
 Package pdftex.def Info: ../Phase_3/charts/forecast_total.png  used on input li
 ne 191.
 (pdftex.def)             Requested size: 377.85419pt x 157.4396pt.
  [3 <../Phase_2/charts/flow_hourly.png> <../Phase_3/charts/forecast_total.png>]
-<../analytics_dashboard/docs/screenshots/1-overview.png, id=88, 1927.2pt x 964.
+<../analytics_dashboard/docs/screenshots/1-overview.png, id=85, 1927.2pt x 964.
 60374pt>
 File: ../analytics_dashboard/docs/screenshots/1-overview.png Graphic file (type
  png)
@@ -380,7 +375,7 @@ File: ../analytics_dashboard/docs/screenshots/1-overview.png Graphic file (type
 Package pdftex.def Info: ../analytics_dashboard/docs/screenshots/1-overview.png
   used on input line 246.
 (pdftex.def)             Requested size: 401.47144pt x 200.939pt.
-<../analytics_dashboard/docs/screenshots/6-forecast.png, id=89, 1927.2pt x 964.
+<../analytics_dashboard/docs/screenshots/6-forecast.png, id=86, 1927.2pt x 964.
 60374pt>
 File: ../analytics_dashboard/docs/screenshots/6-forecast.png Graphic file (type
  png)
@@ -408,16 +403,16 @@ Here is how much of TeX's memory you used:
  37987 multiletter control sequences out of 15000+600000
  633098 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,287b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,287b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (8 pages, 932552 bytes).
+Output written on report.pdf (7 pages, 932319 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 136 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
