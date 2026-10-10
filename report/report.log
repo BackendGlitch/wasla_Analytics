@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  10 OCT 2026 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.2)  10 OCT 2026 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -382,7 +382,14 @@ Package pdftex.def Info: ../analytics_dashboard/docs/screenshots/6-forecast.png
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <../analytics_dashboard/docs/screenshots/1-overview.png>] [5 <../analytics_d
-ashboard/docs/screenshots/6-forecast.png>] [6] (./report.aux)
+ashboard/docs/screenshots/6-forecast.png>]
+<stamp_e-sign.png, id=97, 750.805pt x 334.24875pt>
+File: stamp_e-sign.png Graphic file (type png)
+<use stamp_e-sign.png>
+Package pdftex.def Info: stamp_e-sign.png  used on input line 305.
+(pdftex.def)             Requested size: 119.50148pt x 53.20038pt.
+ [6 <./stamp_e-sign.png>]
+(./report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -391,10 +398,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 7D66F7361CCE2A2DBCDF7FD2AD002561;1339.
  ) 
 Here is how much of TeX's memory you used:
- 9257 strings out of 469339
- 144929 string characters out of 5466703
+ 9267 strings out of 469339
+ 145159 string characters out of 5466703
  572517 words of memory out of 6000000
- 37978 multiletter control sequences out of 15000+600000
+ 37987 multiletter control sequences out of 15000+600000
  633098 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,79p,287b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -403,10 +410,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (7 pages, 666226 bytes).
+Output written on report.pdf (7 pages, 932692 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
